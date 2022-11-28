@@ -1,450 +1,1428 @@
-
-<!DOCTYPE html 
-      PUBLIC "-//W3C//DTD HTML 4.01//EN"
-      "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html lang="en-US">
-<head profile="http://www.w3.org/2005/10/profile">
-<link rel="icon" href="https://thetelavivi.com/wp-content/uploads/2021/08/Cube-colors-3-2.svg" type="image/svg+xml">
-<head>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-HK25BE4VCD"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-HK25BE4VCD');
-</script>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&display=swap" rel="stylesheet">
-<style>
-html{
-  font-family: 'Noto Sans', sans-serif;
-  background-color: #efefef;
-  border-radius: 6px;
-  }
-.header{
-  height: 110px;
-}
-body{
-  font-family: 'Noto Sans', sans-serif;
-  background-color: white;
-  border-radius: 6px;
-  margin: 1;
-  }
-hr {
-border-top: none;
-box-shadow: 0.5px 0.5px 0.5px #eceded
-}
-div, .menu{
-font-family: 'Noto Sans', sans-serif;
-flex: left;
-white-space: nowrap;
-overflow-x: scroll;
-overflow-y: hidden;
-vertical-align: top;
-margin-top: 10px;
-margin-right: 10%;
-}
-button,.menu{
-font-size: 22px;
-border: none;
-background-color: transparent;
-width: auto;
-display: inline;
-flex: left;
-white-space: nowrap;
-overflow-x: scroll;
-overflow-y: hidden;
-vertical-align: top;
-margin-top: 60px;
-margin-right: 10%;
-}
-button,.menu a{
-text-decoration: none;
-color: #1c1b1b;
-}
-@-webkit-keyframes swing{
-    15% {
-        -webkit-transform: translateY(7px);
-        transform: translateY(7px);
-    } 
-}
-@keyframes swing{
-    15% {
-        -webkit-transform: translateY(7px);
-        transform: translateY(7px);
-    } 
-}
-.swing:hover
-{
-    -webkit-animation: swing 1s ease;
-    animation: swing 1s ease;
-    -webkit-animation-iteration-count: 1;
-    animation-iteration-count: 1;
-}
-.swing:hover{
-text-decoration: none;
-color: #1c1b1b
-}
-.mySlides {
-margin-top: 30px;
-padding: 0;
-width: 100%;
-text-align: center;
-}
-.mySlides img{
-display: inline;
-margin-left: 0;
-margin-right: 0;
-position: relative;
-width: 400px;
-height: 400px;
-object-fit: cover;
-text-align: center;
-aspect-rato: 1/1;
-border-radius: 6px;
-}
-.display_none{
-  display: none;
-}
-@media only screen and (max-width: 600px) {  
-.mySlides img {
-  margin: 0;
-  width:97%;
-  }
-  }
-.prev, .next {
-  display: none;
-}
-/* Position the "next button" to the right */
-.next {
-  display: none;
-}
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-   display: none;
-}
-.fade {
-  animation-name: fade;
-  animation-duration: 3.5s;
-}
-@keyframes fade {
-  from {opacity: .2;
-  } 
-  
-  to {
-    opacity: 1;
-    }
-}
+  <head profile="http://www.w3.org/2005/10/profile">
+    <link rel="icon" href="https://thetelavivi.com/wp-content/uploads/2021/08/Cube-colors-3-2.svg" type="image/svg+xml">
+<title>Telavivian</title>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-HK25BE4VCD"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
 
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {
-    display: none;
-    }
-}
-.footer {
-margin: auto;
-padding-bottom: 15%;
-width: 100%;
-text-align: center;
-}
-.footer p, a{
-padding-left: 2%;
-padding-right: 2%;
-font-weight: bold;
-display: inline;
-padding-bottom: 15%;
-text-decoration: none;
-color: grey;
-font-size: 13px;
-}
-.footer p, a:hover{
-padding-left: 2%;
-padding-right: 2%;
-font-weight: bold;
-display: inline;
-padding-bottom: 15%;
-text-decoration: none;
-color: #1c1b1b;
-font-size: 13px;
-}
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
 
-@media only screen and (max-width: 600px) {  
-.footer p, a{
-display: block;
-margin-right: 0%;
-padding-bottom: 0%;
-text-decoration: none;
-color: #1c1b1b;
-font-size: 13px;
-}
-  }
-  }
+        gtag('config', 'G-HK25BE4VCD');
 
-	</style>
-</head>
+      </script>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&display=swap" rel="stylesheet">
+      <style>
+        html {
+          font-family: 'Noto Sans', sans-serif;
+          background-color: #efefef;
+          border-radius: 6px;
+        }
 
-  <div class="header">
-    <img style="height: 140px; width: 140px;" src="https://thetelavivi.com/wp-content/uploads/2022/08/Logo-Transparent-2.svg">
-    <button class="menu swing"><a href="https://thetelavivi.com/the-tel-aviv-real-estate-market/lifestyle/">
-        lifestyle</a></button>
-    <button class="menu swing"><a href="https://thetelavivi.com/the-tel-aviv-real-estate-market/architecture/">
-        architecture & design</a></button>
-    <button class="menu swing"><a href="https://thetelavivi.com/the-tel-aviv-real-estate-market/tel-aviv-real-estate/">housing market</a>
-    </button><button class="menu swing"><a href="https://thetelavivi.com/the-tel-aviv-real-estate-market/our-tel-aviv-properties/">our tel aviv properties</a>
-    </button>
-    <button class="menu swing"><a href="https://thetelavivi.com/contact-us/">contact us</a></button>
-  </div>
-  <hr>
-<body>
-<div class="display_none">
-<h2>telavivian</h2>	<h3>telavivian</h3>	<h4>telavivian</h4>	<h5>telavivian</h5>	<h6>telavivian</h6>	<p>telavivian</p>
-<h2>tel aviv lifestyle</h2>	<h3>tel aviv lifestyle</h3>	<h4>tel aviv lifestyle</h4>	<h5>tel aviv lifestyle</h5>	<h6>tel aviv lifestyle</h6>	<p>tel aviv lifestyle</p>
-<h2>tel aviv architecture</h2>	<h3>tel aviv architecture</h3>	<h4>tel aviv architecture</h4>	<h5>tel aviv architecture</h5>	<h6>tel aviv architecture</h6>	<p>tel aviv architecture</p>
-<h2>tel aviv design</h2>	<h3>tel aviv design</h3>	<h4>tel aviv design</h4>	<h5>tel aviv design</h5>	<h6>tel aviv design</h6>	<p>tel aviv design</p>
-<h2>tel aviv restaurants</h2>	<h3>tel aviv restaurants</h3>	<h4>tel aviv restaurants</h4>	<h5>tel aviv restaurants</h5>	<h6>tel aviv restaurants</h6>	<p>tel aviv restaurants</p>
-<h2>tel aviv real estate</h2>	<h3>tel aviv real estate</h3>	<h4>tel aviv real estate</h4>	<h5>tel aviv real estate</h5>	<h6>tel aviv real estate</h6>	<p>tel aviv real estate</p>
-<h2>tel aviv bauhaus</h2>	<h3>tel aviv bauhaus</h3>	<h4>tel aviv bauhaus</h4>	<h5>tel aviv bauhaus</h5>	<h6>tel aviv bauhaus</h6>	<p>tel aviv bauhaus</p>
-<h2>telavivian lifestyle</h2>	<h3>telavivian lifestyle</h3>	<h4>telavivian lifestyle</h4>	<h5>telavivian lifestyle</h5>	<h6>telavivian lifestyle</h6>	<p>telavivian lifestyle</p>
-<h2>telavivian architecture</h2>	<h3>telavivian architecture</h3>	<h4>telavivian architecture</h4>	<h5>telavivian architecture</h5>	<h6>telavivian architecture</h6>	<p>telavivian architecture</p>
-<h2>telavivian design</h2>	<h3>telavivian design</h3>	<h4>telavivian design</h4>	<h5>telavivian design</h5>	<h6>telavivian design</h6>	<p>telavivian design</p>
-<h2>telavivian restaurants</h2>	<h3>telavivian restaurants</h3>	<h4>telavivian restaurants</h4>	<h5>telavivian restaurants</h5>	<h6>telavivian restaurants</h6>	<p>telavivian restaurants</p>
-<h2>telavivian real estate</h2>	<h3>telavivian real estate</h3>	<h4>telavivian real estate</h4>	<h5>telavivian real estate</h5>	<h6>telavivian real estate</h6>	<p>telavivian real estate</p>
-<h2>telavivian bauhaus</h2>	<h3>telavivian bauhaus</h3>	<h4>telavivian bauhaus</h4>	<h5>telavivian bauhaus</h5>	<h6>telavivian bauhaus</h6>	<p>telavivian bauhaus</p>
-<h2>Le top 5 des meilleurs restaurants cacher de tel aviv</h2>	<h3>Le top 5 des meilleurs restaurants cacher de tel aviv</h3>	<h4>Le top 5 des meilleurs restaurants cacher de tel aviv</h4>	<h5>Le top 5 des meilleurs restaurants cacher de tel aviv</h5>	<h6>Le top 5 des meilleurs restaurants cacher de tel aviv</h6>	<p>Le top 5 des meilleurs restaurants cacher de tel aviv</p>
-<h2>Le top 5 des meilleurs restaurants kacher de tel aviv</h2>	<h3>Le top 5 des meilleurs restaurants kacher de tel aviv</h3>	<h4>Le top 5 des meilleurs restaurants kacher de tel aviv</h4>	<h5>Le top 5 des meilleurs restaurants kacher de tel aviv</h5>	<h6>Le top 5 des meilleurs restaurants kacher de tel aviv</h6>	<p>Le top 5 des meilleurs restaurants kacher de tel aviv</p>
-<h2>Le top 5 des meilleurs restaurants kascher de tel aviv</h2>	<h3>Le top 5 des meilleurs restaurants kascher de tel aviv</h3>	<h4>Le top 5 des meilleurs restaurants kascher de tel aviv</h4>	<h5>Le top 5 des meilleurs restaurants kascher de tel aviv</h5>	<h6>Le top 5 des meilleurs restaurants kascher de tel aviv</h6>	<p>Le top 5 des meilleurs restaurants kascher de tel aviv</p>
-<h2>Le top 5 des meilleurs restaurants cascher de tel aviv</h2>	<h3>Le top 5 des meilleurs restaurants cascher de tel aviv</h3>	<h4>Le top 5 des meilleurs restaurants cascher de tel aviv</h4>	<h5>Le top 5 des meilleurs restaurants cascher de tel aviv</h5>	<h6>Le top 5 des meilleurs restaurants cascher de tel aviv</h6>	<p>Le top 5 des meilleurs restaurants cascher de tel aviv</p>
-					
-					
-					
-					
-					
-<h2>Hess 4 New Project For Sale In Tel Aviv</h2>	<h3>Hess 4 New Project For Sale In Tel Aviv</h3>	<h4>Hess 4 New Project For Sale In Tel Aviv</h4>	<h5>Hess 4 New Project For Sale In Tel Aviv</h5>	<h6>Hess 4 New Project For Sale In Tel Aviv</h6>	<p>Hess 4 New Project For Sale In Tel Aviv</p>
-<h2>bauhaus</h2>	<h3>bauhaus</h3>	<h4>bauhaus</h4>	<h5>bauhaus</h5>	<h6>bauhaus</h6>	<p>bauhaus</p>
-<h2>luxury project in tel aviv</h2>	<h3>luxury project in tel aviv</h3>	<h4>luxury project in tel aviv</h4>	<h5>luxury project in tel aviv</h5>	<h6>luxury project in tel aviv</h6>	<p>luxury project in tel aviv</p>
-<h2>luxury apartment in tel aviv</h2>	<h3>luxury apartment in tel aviv</h3>	<h4>luxury apartment in tel aviv</h4>	<h5>luxury apartment in tel aviv</h5>	<h6>luxury apartment in tel aviv</h6>	<p>luxury apartment in tel aviv</p>
-<h2>bauhaus apartments for sale in tel aviv</h2>	<h3>bauhaus apartments for sale in tel aviv</h3>	<h4>bauhaus apartments for sale in tel aviv</h4>	<h5>bauhaus apartments for sale in tel aviv</h5>	<h6>bauhaus apartments for sale in tel aviv</h6>	<p>bauhaus apartments for sale in tel aviv</p>
-					
-<h2>hess-4-nouveau-projet-a-vendre-a-tel-aviv</h2>	<h3>hess-4-nouveau-projet-a-vendre-a-tel-aviv</h3>	<h4>hess-4-nouveau-projet-a-vendre-a-tel-aviv</h4>	<h5>hess-4-nouveau-projet-a-vendre-a-tel-aviv</h5>	<h6>hess-4-nouveau-projet-a-vendre-a-tel-aviv</h6>	<p>hess-4-nouveau-projet-a-vendre-a-tel-aviv</p>
-<h2>hess-4-nouveau-programme-a-vendre-a-tel-aviv</h2>	<h3>hess-4-nouveau-programme-a-vendre-a-tel-aviv</h3>	<h4>hess-4-nouveau-programme-a-vendre-a-tel-aviv</h4>	<h5>hess-4-nouveau-programme-a-vendre-a-tel-aviv</h5>	<h6>hess-4-nouveau-programme-a-vendre-a-tel-aviv</h6>	<p>hess-4-nouveau-programme-a-vendre-a-tel-aviv</p>
-<h2>bauhaus</h2>	<h3>bauhaus</h3>	<h4>bauhaus</h4>	<h5>bauhaus</h5>	<h6>bauhaus</h6>	<p>bauhaus</p>
-<h2>projet de luxe à tel aviv</h2>	<h3>projet de luxe à tel aviv</h3>	<h4>projet de luxe à tel aviv</h4>	<h5>projet de luxe à tel aviv</h5>	<h6>projet de luxe à tel aviv</h6>	<p>projet de luxe à tel aviv</p>
-<h2>appartement de luxe à tel aviv</h2>	<h3>appartement de luxe à tel aviv</h3>	<h4>appartement de luxe à tel aviv</h4>	<h5>appartement de luxe à tel aviv</h5>	<h6>appartement de luxe à tel aviv</h6>	<p>appartement de luxe à tel aviv</p>
-<h2>appartements bauhaus à vendre à tel aviv</h2>	<h3>appartements bauhaus à vendre à tel aviv</h3>	<h4>appartements bauhaus à vendre à tel aviv</h4>	<h5>appartements bauhaus à vendre à tel aviv</h5>	<h6>appartements bauhaus à vendre à tel aviv</h6>	<p>appartements bauhaus à vendre à tel aviv</p>
-<h2>appartements de luxe bauhaus à vendre à tel aviv</h2>	<h3>appartements de luxe bauhaus à vendre à tel aviv</h3>	<h4>appartements de luxe bauhaus à vendre à tel aviv</h4>	<h5>appartements de luxe bauhaus à vendre à tel aviv</h5>	<h6>appartements de luxe bauhaus à vendre à tel aviv</h6>	<p>appartements de luxe bauhaus à vendre à tel aviv</p>
-<h2>hess 4 nouveau programme à vendre à tel aviv</h2>	<h3>hess 4 nouveau programme à vendre à tel aviv</h3>	<h4>hess 4 nouveau programme à vendre à tel aviv</h4>	<h5>hess 4 nouveau programme à vendre à tel aviv</h5>	<h6>hess 4 nouveau programme à vendre à tel aviv</h6>	<p>hess 4 nouveau programme à vendre à tel aviv</p>
-					
-<h2>Top 5 best kosher restaurants in Tel Aviv</h2>	<h3>Top 5 best kosher restaurants in Tel Aviv</h3>	<h4>Top 5 best kosher restaurants in Tel Aviv</h4>	<h5>Top 5 best kosher restaurants in Tel Aviv</h5>	<h6>Top 5 best kosher restaurants in Tel Aviv</h6>	<p>Top 5 best kosher restaurants in Tel Aviv</p>
-<h2>Top 5 kosher restaurants</h2>	<h3>Top 5 kosher restaurants</h3>	<h4>Top 5 kosher restaurants</h4>	<h5>Top 5 kosher restaurants</h5>	<h6>Top 5 kosher restaurants</h6>	<p>Top 5 kosher restaurants</p>
-<h2>kosher</h2>	<h3>kosher</h3>	<h4>kosher</h4>	<h5>kosher</h5>	<h6>kosher</h6>	<p>kosher</p>
-<h2>restaurants</h2>	<h3>restaurants</h3>	<h4>restaurants</h4>	<h5>restaurants</h5>	<h6>restaurants</h6>	<p>restaurants</p>
-<h2>tel aviv </h2>	<h3>tel aviv </h3>	<h4>tel aviv </h4>	<h5>tel aviv </h5>	<h6>tel aviv </h6>	<p>tel aviv </p>
-<h2>best restaurants</h2>	<h3>best restaurants</h3>	<h4>best restaurants</h4>	<h5>best restaurants</h5>	<h6>best restaurants</h6>	<p>best restaurants</p>
-<h2>best kosher restaurant</h2>	<h3>best kosher restaurant</h3>	<h4>best kosher restaurant</h4>	<h5>best kosher restaurant</h5>	<h6>best kosher restaurant</h6>	<p>best kosher restaurant</p>
-<h2>best kosher restaurants</h2>	<h3>best kosher restaurants</h3>	<h4>best kosher restaurants</h4>	<h5>best kosher restaurants</h5>	<h6>best kosher restaurants</h6>	<p>best kosher restaurants</p>
-<h2>dining in tel aviv</h2>	<h3>dining in tel aviv</h3>	<h4>dining in tel aviv</h4>	<h5>dining in tel aviv</h5>	<h6>dining in tel aviv</h6>	<p>dining in tel aviv</p>
-<h2>kosher dining in tel aviv</h2>	<h3>kosher dining in tel aviv</h3>	<h4>kosher dining in tel aviv</h4>	<h5>kosher dining in tel aviv</h5>	<h6>kosher dining in tel aviv</h6>	<p>kosher dining in tel aviv</p>
-<h2>visit tel aviv </h2>	<h3>visit tel aviv </h3>	<h4>visit tel aviv </h4>	<h5>visit tel aviv </h5>	<h6>visit tel aviv </h6>	<p>visit tel aviv </p>
-<h2>tel aviv kosher guide</h2>	<h3>tel aviv kosher guide</h3>	<h4>tel aviv kosher guide</h4>	<h5>tel aviv kosher guide</h5>	<h6>tel aviv kosher guide</h6>	<p>tel aviv kosher guide</p>
-<h2>tel aviv</h2>	<h3>tel aviv</h3>	<h4>tel aviv</h4>	<h5>tel aviv</h5>	<h6>tel aviv</h6>	<p>tel aviv</p>
-<h2>TLV</h2>	<h3>TLV</h3>	<h4>TLV</h4>	<h5>TLV</h5>	<h6>TLV</h6>	<p>TLV</p>
-<h2>properties for sale tel aviv</h2>	<h3>properties for sale tel aviv</h3>	<h4>properties for sale tel aviv</h4>	<h5>properties for sale tel aviv</h5>	<h6>properties for sale tel aviv</h6>	<p>properties for sale tel aviv</p>
-<h2>apartment for sale in tel aviv </h2>	<h3>apartment for sale in tel aviv </h3>	<h4>apartment for sale in tel aviv </h4>	<h5>apartment for sale in tel aviv </h5>	<h6>apartment for sale in tel aviv </h6>	<p>apartment for sale in tel aviv </p>
-<h2>tel aviv properties</h2>	<h3>tel aviv properties</h3>	<h4>tel aviv properties</h4>	<h5>tel aviv properties</h5>	<h6>tel aviv properties</h6>	<p>tel aviv properties</p>
-<h2>israel real estate</h2>	<h3>israel real estate</h3>	<h4>israel real estate</h4>	<h5>israel real estate</h5>	<h6>israel real estate</h6>	<p>israel real estate</p>
-<h2>real estate tel aviv</h2>	<h3>real estate tel aviv</h3>	<h4>real estate tel aviv</h4>	<h5>real estate tel aviv</h5>	<h6>real estate tel aviv</h6>	<p>real estate tel aviv</p>
-<h2>the best restaurant in tel aviv 2022</h2>	<h3>the best restaurant in tel aviv 2022</h3>	<h4>the best restaurant in tel aviv 2022</h4>	<h5>the best restaurant in tel aviv 2022</h5>	<h6>the best restaurant in tel aviv 2022</h6>	<p>the best restaurant in tel aviv 2022</p>
-<h2>2022 best tel aviv restaurant</h2>	<h3>2022 best tel aviv restaurant</h3>	<h4>2022 best tel aviv restaurant</h4>	<h5>2022 best tel aviv restaurant</h5>	<h6>2022 best tel aviv restaurant</h6>	<p>2022 best tel aviv restaurant</p>
-<h2>2022 best tel aviv restaurant</h2>	<h3>2022 best tel aviv restaurant</h3>	<h4>2022 best tel aviv restaurant</h4>	<h5>2022 best tel aviv restaurant</h5>	<h6>2022 best tel aviv restaurant</h6>	<p>2022 best tel aviv restaurant</p>
-<h2>the Tel Aviv 2022 best restaurant</h2>	<h3>the Tel Aviv 2022 best restaurant</h3>	<h4>the Tel Aviv 2022 best restaurant</h4>	<h5>the Tel Aviv 2022 best restaurant</h5>	<h6>the Tel Aviv 2022 best restaurant</h6>	<p>the Tel Aviv 2022 best restaurant</p>
-<h2>The 2022  Best Tel Aviv Restaurant  </h2>	<h3>The 2022  Best Tel Aviv Restaurant  </h3>	<h4>The 2022  Best Tel Aviv Restaurant  </h4>	<h5>The 2022  Best Tel Aviv Restaurant  </h5>	<h6>The 2022  Best Tel Aviv Restaurant  </h6>	<p>The 2022  Best Tel Aviv Restaurant  </p>
-					
-<h2>2023 tel aviv real estate</h2>	<h3>2023 tel aviv real estate</h3>	<h4>2023 tel aviv real estate</h4>	<h5>2023 tel aviv real estate</h5>	<h6>2023 tel aviv real estate</h6>	<p>2023 tel aviv real estate</p>
-<h2>housing market</h2>	<h3>housing market</h3>	<h4>housing market</h4>	<h5>housing market</h5>	<h6>housing market</h6>	<p>housing market</p>
-<h2>house market 2022</h2>	<h3>house market 2022</h3>	<h4>house market 2022</h4>	<h5>house market 2022</h5>	<h6>house market 2022</h6>	<p>house market 2022</p>
-<h2>housing market prices</h2>	<h3>housing market prices</h3>	<h4>housing market prices</h4>	<h5>housing market prices</h5>	<h6>housing market prices</h6>	<p>housing market prices</p>
-<h2>housing price index</h2>	<h3>housing price index</h3>	<h4>housing price index</h4>	<h5>housing price index</h5>	<h6>housing price index</h6>	<p>housing price index</p>
-<h2>home prices</h2>	<h3>home prices</h3>	<h4>home prices</h4>	<h5>home prices</h5>	<h6>home prices</h6>	<p>home prices</p>
-<h2>housing prices</h2>	<h3>housing prices</h3>	<h4>housing prices</h4>	<h5>housing prices</h5>	<h6>housing prices</h6>	<p>housing prices</p>
-<h2>the housing market</h2>	<h3>the housing market</h3>	<h4>the housing market</h4>	<h5>the housing market</h5>	<h6>the housing market</h6>	<p>the housing market</p>
-<h2>median house price</h2>	<h3>median house price</h3>	<h4>median house price</h4>	<h5>median house price</h5>	<h6>median house price</h6>	<p>median house price</p>
-<h2>house prices rise</h2>	<h3>house prices rise</h3>	<h4>house prices rise</h4>	<h5>house prices rise</h5>	<h6>house prices rise</h6>	<p>house prices rise</p>
-<h2>houses on the market</h2>	<h3>houses on the market</h3>	<h4>houses on the market</h4>	<h5>houses on the market</h5>	<h6>houses on the market</h6>	<p>houses on the market</p>
-<h2>housing report</h2>	<h3>housing report</h3>	<h4>housing report</h4>	<h5>housing report</h5>	<h6>housing report</h6>	<p>housing report</p>
-<h2>prices rising</h2>	<h3>prices rising</h3>	<h4>prices rising</h4>	<h5>prices rising</h5>	<h6>prices rising</h6>	<p>prices rising</p>
-<h2>housing market decline</h2>	<h3>housing market decline</h3>	<h4>housing market decline</h4>	<h5>housing market decline</h5>	<h6>housing market decline</h6>	<p>housing market decline</p>
-<h2>median home prices</h2>	<h3>median home prices</h3>	<h4>median home prices</h4>	<h5>median home prices</h5>	<h6>median home prices</h6>	<p>median home prices</p>
-<h2>home prices rising</h2>	<h3>home prices rising</h3>	<h4>home prices rising</h4>	<h5>home prices rising</h5>	<h6>home prices rising</h6>	<p>home prices rising</p>
-<h2>housing market report</h2>	<h3>housing market report</h3>	<h4>housing market report</h4>	<h5>housing market report</h5>	<h6>housing market report</h6>	<p>housing market report</p>
-<h2>market housing</h2>	<h3>market housing</h3>	<h4>market housing</h4>	<h5>market housing</h5>	<h6>market housing</h6>	<p>market housing</p>
-<h2>on the market house prices</h2>	<h3>on the market house prices</h3>	<h4>on the market house prices</h4>	<h5>on the market house prices</h5>	<h6>on the market house prices</h6>	<p>on the market house prices</p>
-<h2>housing economy</h2>	<h3>housing economy</h3>	<h4>housing economy</h4>	<h5>housing economy</h5>	<h6>housing economy</h6>	<p>housing economy</p>
-<h2>housing numbers</h2>	<h3>housing numbers</h3>	<h4>housing numbers</h4>	<h5>housing numbers</h5>	<h6>housing numbers</h6>	<p>housing numbers</p>
-<h2>homes in israel</h2>	<h3>homes in israel</h3>	<h4>homes in israel</h4>	<h5>homes in israel</h5>	<h6>homes in israel</h6>	<p>homes in israel</p>
-<h2>the house market</h2>	<h3>the house market</h3>	<h4>the house market</h4>	<h5>the house market</h5>	<h6>the house market</h6>	<p>the house market</p>
-<h2>a house has</h2>	<h3>a house has</h3>	<h4>a house has</h4>	<h5>a house has</h5>	<h6>a house has</h6>	<p>a house has</p>
-<h2>a house has a</h2>	<h3>a house has a</h3>	<h4>a house has a</h4>	<h5>a house has a</h5>	<h6>a house has a</h6>	<p>a house has a</p>
-<h2>home prices decline</h2>	<h3>home prices decline</h3>	<h4>home prices decline</h4>	<h5>home prices decline</h5>	<h6>home prices decline</h6>	<p>home prices decline</p>
-<h2>israel house prices</h2>	<h3>israel house prices</h3>	<h4>israel house prices</h4>	<h5>israel house prices</h5>	<h6>israel house prices</h6>	<p>israel house prices</p>
-<h2>homes market</h2>	<h3>homes market</h3>	<h4>homes market</h4>	<h5>homes market</h5>	<h6>homes market</h6>	<p>homes market</p>
-<h2>house price changes</h2>	<h3>house price changes</h3>	<h4>house price changes</h4>	<h5>house price changes</h5>	<h6>house price changes</h6>	<p>house price changes</p>
-<h2>market homes</h2>	<h3>market homes</h3>	<h4>market homes</h4>	<h5>market homes</h5>	<h6>market homes</h6>	<p>market homes</p>
-<h2>housing m</h2>	<h3>housing m</h3>	<h4>housing m</h4>	<h5>housing m</h5>	<h6>housing m</h6>	<p>housing m</p>
-<h2>real house price index</h2>	<h3>real house price index</h3>	<h4>real house price index</h4>	<h5>real house price index</h5>	<h6>real house price index</h6>	<p>real house price index</p>
-<h2>housing in israel</h2>	<h3>housing in israel</h3>	<h4>housing in israel</h4>	<h5>housing in israel</h5>	<h6>housing in israel</h6>	<p>housing in israel</p>
-<h2>israel housing market</h2>	<h3>israel housing market</h3>	<h4>israel housing market</h4>	<h5>israel housing market</h5>	<h6>israel housing market</h6>	<p>israel housing market</p>
-<h2>home prices index</h2>	<h3>home prices index</h3>	<h4>home prices index</h4>	<h5>home prices index</h5>	<h6>home prices index</h6>	<p>home prices index</p>
-<h2>real house prices</h2>	<h3>real house prices</h3>	<h4>real house prices</h4>	<h5>real house prices</h5>	<h6>real house prices</h6>	<p>real house prices</p>
-<h2>housing market changes</h2>	<h3>housing market changes</h3>	<h4>housing market changes</h4>	<h5>housing market changes</h5>	<h6>housing market changes</h6>	<p>housing market changes</p>
-<h2>house price report</h2>	<h3>house price report</h3>	<h4>house price report</h4>	<h5>house price report</h5>	<h6>house price report</h6>	<p>house price report</p>
-<h2>housing prices decline</h2>	<h3>housing prices decline</h3>	<h4>housing prices decline</h4>	<h5>housing prices decline</h5>	<h6>housing prices decline</h6>	<p>housing prices decline</p>
-<h2>august housing market</h2>	<h3>august housing market</h3>	<h4>august housing market</h4>	<h5>august housing market</h5>	<h6>august housing market</h6>	<p>august housing market</p>
-<h2>housing market articles</h2>	<h3>housing market articles</h3>	<h4>housing market articles</h4>	<h5>housing market articles</h5>	<h6>housing market articles</h6>	<p>housing market articles</p>
-<h2>housing market price index</h2>	<h3>housing market price index</h3>	<h4>housing market price index</h4>	<h5>housing market price index</h5>	<h6>housing market price index</h6>	<p>housing market price index</p>
-<h2>housing market rise</h2>	<h3>housing market rise</h3>	<h4>housing market rise</h4>	<h5>housing market rise</h5>	<h6>housing market rise</h6>	<p>housing market rise</p>
-<h2>israel prices</h2>	<h3>israel prices</h3>	<h4>israel prices</h4>	<h5>israel prices</h5>	<h6>israel prices</h6>	<p>israel prices</p>
-<h2>tel aviv house prices</h2>	<h3>tel aviv house prices</h3>	<h4>tel aviv house prices</h4>	<h5>tel aviv house prices</h5>	<h6>tel aviv house prices</h6>	<p>tel aviv house prices</p>
-<h2>housing decline</h2>	<h3>housing decline</h3>	<h4>housing decline</h4>	<h5>housing decline</h5>	<h6>housing decline</h6>	<p>housing decline</p>
-<h2>housing market numbers</h2>	<h3>housing market numbers</h3>	<h4>housing market numbers</h4>	<h5>housing market numbers</h5>	<h6>housing market numbers</h6>	<p>housing market numbers</p>
-<h2>housing market economy</h2>	<h3>housing market economy</h3>	<h4>housing market economy</h4>	<h5>housing market economy</h5>	<h6>housing market economy</h6>	<p>housing market economy</p>
-<h2>home prices in</h2>	<h3>home prices in</h3>	<h4>home prices in</h4>	<h5>home prices in</h5>	<h6>home prices in</h6>	<p>home prices in</p>
-<h2>house prices august</h2>	<h3>house prices august</h3>	<h4>house prices august</h4>	<h5>house prices august</h5>	<h6>house prices august</h6>	<p>house prices august</p>
-<h2>tel aviv homes</h2>	<h3>tel aviv homes</h3>	<h4>tel aviv homes</h4>	<h5>tel aviv homes</h5>	<h6>tel aviv homes</h6>	<p>tel aviv homes</p>
-<h2>house price index report</h2>	<h3>house price index report</h3>	<h4>house price index report</h4>	<h5>house price index report</h5>	<h6>house price index report</h6>	<p>house price index report</p>
-<h2>real home price index</h2>	<h3>real home price index</h3>	<h4>real home price index</h4>	<h5>real home price index</h5>	<h6>real home price index</h6>	<p>real home price index</p>
-<h2>in the housing market</h2>	<h3>in the housing market</h3>	<h4>in the housing market</h4>	<h5>in the housing market</h5>	<h6>in the housing market</h6>	<p>in the housing market</p>
-<h2>changes in housing market</h2>	<h3>changes in housing market</h3>	<h4>changes in housing market</h4>	<h5>changes in housing market</h5>	<h6>changes in housing market</h6>	<p>changes in housing market</p>
-<h2>home market price</h2>	<h3>home market price</h3>	<h4>home market price</h4>	<h5>home market price</h5>	<h6>home market price</h6>	<p>home market price</p>
-<h2>house of market</h2>	<h3>house of market</h3>	<h4>house of market</h4>	<h5>house of market</h5>	<h6>house of market</h6>	<p>house of market</p>
-<h2>israel house price index</h2>	<h3>israel house price index</h3>	<h4>israel house price index</h4>	<h5>israel house price index</h5>	<h6>israel house price index</h6>	<p>israel house price index</p>
-<h2>tel aviv housing</h2>	<h3>tel aviv housing</h3>	<h4>tel aviv housing</h4>	<h5>tel aviv housing</h5>	<h6>tel aviv housing</h6>	<p>tel aviv housing</p>
-<h2>home prices in israel</h2>	<h3>home prices in israel</h3>	<h4>home prices in israel</h4>	<h5>home prices in israel</h5>	<h6>home prices in israel</h6>	<p>home prices in israel</p>
-<h2>house market rates</h2>	<h3>house market rates</h3>	<h4>house market rates</h4>	<h5>house market rates</h5>	<h6>house market rates</h6>	<p>house market rates</p>
-<h2>housing market august</h2>	<h3>housing market august</h3>	<h4>housing market august</h4>	<h5>housing market august</h5>	<h6>housing market august</h6>	<p>housing market august</p>
-<h2>change in housing market</h2>	<h3>change in housing market</h3>	<h4>change in housing market</h4>	<h5>change in housing market</h5>	<h6>change in housing market</h6>	<p>change in housing market</p>
-<h2>housing market in</h2>	<h3>housing market in</h3>	<h4>housing market in</h4>	<h5>housing market in</h5>	<h6>housing market in</h6>	<p>housing market in</p>
-<h2>august house prices</h2>	<h3>august house prices</h3>	<h4>august house prices</h4>	<h5>august house prices</h5>	<h6>august house prices</h6>	<p>august house prices</p>
-<h2>housing market and economy</h2>	<h3>housing market and economy</h3>	<h4>housing market and economy</h4>	<h5>housing market and economy</h5>	<h6>housing market and economy</h6>	<p>housing market and economy</p>
-<h2>economy housing market</h2>	<h3>economy housing market</h3>	<h4>economy housing market</h4>	<h5>economy housing market</h5>	<h6>economy housing market</h6>	<p>economy housing market</p>
-<h2>rising housing markets</h2>	<h3>rising housing markets</h3>	<h4>rising housing markets</h4>	<h5>rising housing markets</h5>	<h6>rising housing markets</h6>	<p>rising housing markets</p>
-<h2>median housing</h2>	<h3>median housing</h3>	<h4>median housing</h4>	<h5>median housing</h5>	<h6>median housing</h6>	<p>median housing</p>
-<h2>house in market</h2>	<h3>house in market</h3>	<h4>house in market</h4>	<h5>house in market</h5>	<h6>house in market</h6>	<p>house in market</p>
-<h2>real home prices</h2>	<h3>real home prices</h3>	<h4>real home prices</h4>	<h5>real home prices</h5>	<h6>real home prices</h6>	<p>real home prices</p>
-<h2>housing prices in</h2>	<h3>housing prices in</h3>	<h4>housing prices in</h4>	<h5>housing prices in</h5>	<h6>housing prices in</h6>	<p>housing prices in</p>
-<h2>house prices are rising</h2>	<h3>house prices are rising</h3>	<h4>house prices are rising</h4>	<h5>house prices are rising</h5>	<h6>house prices are rising</h6>	<p>house prices are rising</p>
-<h2>home price report</h2>	<h3>home price report</h3>	<h4>home price report</h4>	<h5>home price report</h5>	<h6>home price report</h6>	<p>home price report</p>
-<h2>index for housing market</h2>	<h3>index for housing market</h3>	<h4>index for housing market</h4>	<h5>index for housing market</h5>	<h6>index for housing market</h6>	<p>index for housing market</p>
-<h2>market price housing</h2>	<h3>market price housing</h3>	<h4>market price housing</h4>	<h5>market price housing</h5>	<h6>market price housing</h6>	<p>market price housing</p>
-<h2>house price rate</h2>	<h3>house price rate</h3>	<h4>house price rate</h4>	<h5>house price rate</h5>	<h6>house price rate</h6>	<p>house price rate</p>
-<h2>housing segment</h2>	<h3>housing segment</h3>	<h4>housing segment</h4>	<h5>housing segment</h5>	<h6>housing segment</h6>	<p>housing segment</p>
-<h2>housing market home prices</h2>	<h3>housing market home prices</h3>	<h4>housing market home prices</h4>	<h5>housing market home prices</h5>	<h6>housing market home prices</h6>	<p>housing market home prices</p>
-<h2>home house prices</h2>	<h3>home house prices</h3>	<h4>home house prices</h4>	<h5>home house prices</h5>	<h6>home house prices</h6>	<p>home house prices</p>
-<h2>number of houses on the market</h2>	<h3>number of houses on the market</h3>	<h4>number of houses on the market</h4>	<h5>number of houses on the market</h5>	<h6>number of houses on the market</h6>	<p>number of houses on the market</p>
-<h2>median price house</h2>	<h3>median price house</h3>	<h4>median price house</h4>	<h5>median price house</h5>	<h6>median price house</h6>	<p>median price house</p>
-<h2>august home prices</h2>	<h3>august home prices</h3>	<h4>august home prices</h4>	<h5>august home prices</h5>	<h6>august home prices</h6>	<p>august home prices</p>
-<h2>home price market</h2>	<h3>home price market</h3>	<h4>home price market</h4>	<h5>home price market</h5>	<h6>home price market</h6>	<p>home price market</p>
-<h2>housing in israel prices</h2>	<h3>housing in israel prices</h3>	<h4>housing in israel prices</h4>	<h5>housing in israel prices</h5>	<h6>housing in israel prices</h6>	<p>housing in israel prices</p>
-<h2>market for homes</h2>	<h3>market for homes</h3>	<h4>market for homes</h4>	<h5>market for homes</h5>	<h6>market for homes</h6>	<p>market for homes</p>
-<h2>housing market price decline</h2>	<h3>housing market price decline</h3>	<h4>housing market price decline</h4>	<h5>housing market price decline</h5>	<h6>housing market price decline</h6>	<p>housing market price decline</p>
-<h2>which house prices</h2>	<h3>which house prices</h3>	<h4>which house prices</h4>	<h5>which house prices</h5>	<h6>which house prices</h6>	<p>which house prices</p>
-<h2>house prices and the economy</h2>	<h3>house prices and the economy</h3>	<h4>house prices and the economy</h4>	<h5>house prices and the economy</h5>	<h6>house prices and the economy</h6>	<p>house prices and the economy</p>
-<h2>market housing rates</h2>	<h3>market housing rates</h3>	<h4>market housing rates</h4>	<h5>market housing rates</h5>	<h6>market housing rates</h6>	<p>market housing rates</p>
-<h2>median home price index</h2>	<h3>median home price index</h3>	<h4>median home price index</h4>	<h5>median home price index</h5>	<h6>median home price index</h6>	<p>median home price index</p>
-<h2>august housing</h2>	<h3>august housing</h3>	<h4>august housing</h4>	<h5>august housing</h5>	<h6>august housing</h6>	<p>august housing</p>
-<h2>housing market in decline</h2>	<h3>housing market in decline</h3>	<h4>housing market in decline</h4>	<h5>housing market in decline</h5>	<h6>housing market in decline</h6>	<p>housing market in decline</p>
-<h2>house price rise index</h2>	<h3>house price rise index</h3>	<h4>house price rise index</h4>	<h5>house price rise index</h5>	<h6>house price rise index</h6>	<p>house price rise index</p>
-<h2>house market economy</h2>	<h3>house market economy</h3>	<h4>house market economy</h4>	<h5>house market economy</h5>	<h6>house market economy</h6>	<p>house market economy</p>
-<h2>official house price index</h2>	<h3>official house price index</h3>	<h4>official house price index</h4>	<h5>official house price index</h5>	<h6>official house price index</h6>	<p>official house price index</p>
-<h2>house market 2023</h2>	<h3>house market 2023</h3>	<h4>house market 2023</h4>	<h5>house market 2023</h5>	<h6>house market 2023</h6>	<p>house market 2023</p>
-<h2>R48 Hotel Tel Aviv</h2>	<h3>R48 Hotel Tel Aviv</h3>	<h4>R48 Hotel Tel Aviv</h4>	<h5>R48 Hotel Tel Aviv</h5>	<h6>R48 Hotel Tel Aviv</h6>	<p>R48 Hotel Tel Aviv</p>
-					
-<h2>The R48 Hotel Rothschild Tel Aviv </h2>	<h3>The R48 Hotel Rothschild Tel Aviv </h3>	<h4>The R48 Hotel Rothschild Tel Aviv </h4>	<h5>The R48 Hotel Rothschild Tel Aviv </h5>	<h6>The R48 Hotel Rothschild Tel Aviv </h6>	<p>The R48 Hotel Rothschild Tel Aviv </p>
-					
-<h2>Israel Hotel Investment</h2>	<h3>Israel Hotel Investment</h3>	<h4>Israel Hotel Investment</h4>	<h5>Israel Hotel Investment</h5>	<h6>Israel Hotel Investment</h6>	<p>Israel Hotel Investment</p>
-<h2>Tel Aviv Hotel Investement </h2>	<h3>Tel Aviv Hotel Investement </h3>	<h4>Tel Aviv Hotel Investement </h4>	<h5>Tel Aviv Hotel Investement </h5>	<h6>Tel Aviv Hotel Investement </h6>	<p>Tel Aviv Hotel Investement </p>
-<h2>Jerusalem Hotel Investment</h2>	<h3>Jerusalem Hotel Investment</h3>	<h4>Jerusalem Hotel Investment</h4>	<h5>Jerusalem Hotel Investment</h5>	<h6>Jerusalem Hotel Investment</h6>	<p>Jerusalem Hotel Investment</p>
-<h2>Hotels Israel</h2>	<h3>Hotels Israel</h3>	<h4>Hotels Israel</h4>	<h5>Hotels Israel</h5>	<h6>Hotels Israel</h6>	<p>Hotels Israel</p>
-<h2>Hotels Tel Aviv </h2>	<h3>Hotels Tel Aviv </h3>	<h4>Hotels Tel Aviv </h4>	<h5>Hotels Tel Aviv </h5>	<h6>Hotels Tel Aviv </h6>	<p>Hotels Tel Aviv </p>
-<h2>Hotels Jerusalem</h2>	<h3>Hotels Jerusalem</h3>	<h4>Hotels Jerusalem</h4>	<h5>Hotels Jerusalem</h5>	<h6>Hotels Jerusalem</h6>	<p>Hotels Jerusalem</p>
-<h2>Hospitality Investment</h2>	<h3>Hospitality Investment</h3>	<h4>Hospitality Investment</h4>	<h5>Hospitality Investment</h5>	<h6>Hospitality Investment</h6>	<p>Hospitality Investment</p>
-<h2>Five star hotels</h2>	<h3>Five star hotels</h3>	<h4>Five star hotels</h4>	<h5>Five star hotels</h5>	<h6>Five star hotels</h6>	<p>Five star hotels</p>
-<h2>Luxury Hotels</h2>	<h3>Luxury Hotels</h3>	<h4>Luxury Hotels</h4>	<h5>Luxury Hotels</h5>	<h6>Luxury Hotels</h6>	<p>Luxury Hotels</p>
-<h2>Israel Hotel Investment Summit</h2>	<h3>Israel Hotel Investment Summit</h3>	<h4>Israel Hotel Investment Summit</h4>	<h5>Israel Hotel Investment Summit</h5>	<h6>Israel Hotel Investment Summit</h6>	<p>Israel Hotel Investment Summit</p>
-<h2>Ministry of Tourism</h2>	<h3>Ministry of Tourism</h3>	<h4>Ministry of Tourism</h4>	<h5>Ministry of Tourism</h5>	<h6>Ministry of Tourism</h6>	<p>Ministry of Tourism</p>
-<h2>Israel </h2>	<h3>Israel </h3>	<h4>Israel </h4>	<h5>Israel </h5>	<h6>Israel </h6>	<p>Israel </p>
-<h2>Tel Aviv </h2>	<h3>Tel Aviv </h3>	<h4>Tel Aviv </h4>	<h5>Tel Aviv </h5>	<h6>Tel Aviv </h6>	<p>Tel Aviv </p>
-<h2>Jerusalem</h2>	<h3>Jerusalem</h3>	<h4>Jerusalem</h4>	<h5>Jerusalem</h5>	<h6>Jerusalem</h6>	<p>Jerusalem</p>
-<h2>Hotel R48 Interior Design and Architecture</h2>	<h3>Hotel R48 Interior Design and Architecture</h3>	<h4>Hotel R48 Interior Design and Architecture</h4>	<h5>Hotel R48 Interior Design and Architecture</h5>	<h6>Hotel R48 Interior Design and Architecture</h6>	<p>Hotel R48 Interior Design and Architecture</p>
-<h2>les quartiers de tel aviv</h2>	<h3>les quartiers de tel aviv</h3>	<h4>les quartiers de tel aviv</h4>	<h5>les quartiers de tel aviv</h5>	<h6>les quartiers de tel aviv</h6>	<p>les quartiers de tel aviv</p>
-<h2>Tel Aviv Appartements Achat Vente Gestion</h2>	<h3>Tel Aviv Appartements Achat Vente Gestion</h3>	<h4>Tel Aviv Appartements Achat Vente Gestion</h4>	<h5>Tel Aviv Appartements Achat Vente Gestion</h5>	<h6>Tel Aviv Appartements Achat Vente Gestion</h6>	<p>Tel Aviv Appartements Achat Vente Gestion</p>
-<h2>tel aviv prix m2</h2>	<h3>tel aviv prix m2</h3>	<h4>tel aviv prix m2</h4>	<h5>tel aviv prix m2</h5>	<h6>tel aviv prix m2</h6>	<p>tel aviv prix m2</p>
-<h2>immobilier israel</h2>	<h3>immobilier israel</h3>	<h4>immobilier israel</h4>	<h5>immobilier israel</h5>	<h6>immobilier israel</h6>	<p>immobilier israel</p>
-<h2>acheter en israël depuis la france</h2>	<h3>acheter en israël depuis la france</h3>	<h4>acheter en israël depuis la france</h4>	<h5>acheter en israël depuis la france</h5>	<h6>acheter en israël depuis la france</h6>	<p>acheter en israël depuis la france</p>
-<h2>israel immobilier</h2>	<h3>israel immobilier</h3>	<h4>israel immobilier</h4>	<h5>israel immobilier</h5>	<h6>israel immobilier</h6>	<p>israel immobilier</p>
-<h2>appartement tel aviv</h2>	<h3>appartement tel aviv</h3>	<h4>appartement tel aviv</h4>	<h5>appartement tel aviv</h5>	<h6>appartement tel aviv</h6>	<p>appartement tel aviv</p>
-<h2>immobilier israël prix</h2>	<h3>immobilier israël prix</h3>	<h4>immobilier israël prix</h4>	<h5>immobilier israël prix</h5>	<h6>immobilier israël prix</h6>	<p>immobilier israël prix</p>
-<h2>achat appartement israel</h2>	<h3>achat appartement israel</h3>	<h4>achat appartement israel</h4>	<h5>achat appartement israel</h5>	<h6>achat appartement israel</h6>	<p>achat appartement israel</p>
-<h2>achat appartement tel aviv</h2>	<h3>achat appartement tel aviv</h3>	<h4>achat appartement tel aviv</h4>	<h5>achat appartement tel aviv</h5>	<h6>achat appartement tel aviv</h6>	<p>achat appartement tel aviv</p>
-<h2>immobilier Tel Aviv</h2>	<h3>immobilier Tel Aviv</h3>	<h4>immobilier Tel Aviv</h4>	<h5>immobilier Tel Aviv</h5>	<h6>immobilier Tel Aviv</h6>	<p>immobilier Tel Aviv</p>
-<h2>Appartement Tel Aviv</h2>	<h3>Appartement Tel Aviv</h3>	<h4>Appartement Tel Aviv</h4>	<h5>Appartement Tel Aviv</h5>	<h6>Appartement Tel Aviv</h6>	<p>Appartement Tel Aviv</p>
-<h2>Project immobilier neuf Tel Aviv</h2>	<h3>Project immobilier neuf Tel Aviv</h3>	<h4>Project immobilier neuf Tel Aviv</h4>	<h5>Project immobilier neuf Tel Aviv</h5>	<h6>Project immobilier neuf Tel Aviv</h6>	<p>Project immobilier neuf Tel Aviv</p>
-<h2>Appartement a vendre Tel Aviv Neve tzedek</h2>	<h3>Appartement a vendre Tel Aviv Neve tzedek</h3>	<h4>Appartement a vendre Tel Aviv Neve tzedek</h4>	<h5>Appartement a vendre Tel Aviv Neve tzedek</h5>	<h6>Appartement a vendre Tel Aviv Neve tzedek</h6>	<p>Appartement a vendre Tel Aviv Neve tzedek</p>
-<h2>Appartement a vendre Tel Aviv</h2>	<h3>Appartement a vendre Tel Aviv</h3>	<h4>Appartement a vendre Tel Aviv</h4>	<h5>Appartement a vendre Tel Aviv</h5>	<h6>Appartement a vendre Tel Aviv</h6>	<p>Appartement a vendre Tel Aviv</p>
-<h2>Programme immobilier neuf Tel Aviv</h2>	<h3>Programme immobilier neuf Tel Aviv</h3>	<h4>Programme immobilier neuf Tel Aviv</h4>	<h5>Programme immobilier neuf Tel Aviv</h5>	<h6>Programme immobilier neuf Tel Aviv</h6>	<p>Programme immobilier neuf Tel Aviv</p>
-<h2>Appartement Tel Aviv vue mer</h2>	<h3>Appartement Tel Aviv vue mer</h3>	<h4>Appartement Tel Aviv vue mer</h4>	<h5>Appartement Tel Aviv vue mer</h5>	<h6>Appartement Tel Aviv vue mer</h6>	<p>Appartement Tel Aviv vue mer</p>
-<h2>Immobilier luxe Tel Aviv</h2>	<h3>Immobilier luxe Tel Aviv</h3>	<h4>Immobilier luxe Tel Aviv</h4>	<h5>Immobilier luxe Tel Aviv</h5>	<h6>Immobilier luxe Tel Aviv</h6>	<p>Immobilier luxe Tel Aviv</p>
-<h2>Appartement Tel Aviv vente</h2>	<h3>Appartement Tel Aviv vente</h3>	<h4>Appartement Tel Aviv vente</h4>	<h5>Appartement Tel Aviv vente</h5>	<h6>Appartement Tel Aviv vente</h6>	<p>Appartement Tel Aviv vente</p>
-<h2>Immobilier de luxe Tel Aviv</h2>	<h3>Immobilier de luxe Tel Aviv</h3>	<h4>Immobilier de luxe Tel Aviv</h4>	<h5>Immobilier de luxe Tel Aviv</h5>	<h6>Immobilier de luxe Tel Aviv</h6>	<p>Immobilier de luxe Tel Aviv</p>
-</div>
+        .header {
+          height: 110px;
+        }
+
+        body {
+          font-family: 'Noto Sans', sans-serif;
+          background-color: white;
+          border-radius: 6px;
+          margin: 1;
+        }
+
+        hr {
+          border-top: none;
+          box-shadow: 0.5px 0.5px 0.5px #eceded
+        }
+
+        div,
+        .menu {
+          font-family: 'Noto Sans', sans-serif;
+          flex: left;
+          white-space: nowrap;
+          overflow-x: scroll;
+          overflow-y: hidden;
+          vertical-align: top;
+          margin-top: 10px;
+          margin-right: 10%;
+        }
+
+        button,
+        .menu {
+          font-size: 22px;
+          border: none;
+          background-color: transparent;
+          width: auto;
+          display: inline;
+          flex: left;
+          white-space: nowrap;
+          overflow-x: scroll;
+          overflow-y: hidden;
+          vertical-align: top;
+          margin-top: 60px;
+          margin-right: 10%;
+        }
+
+        button,
+        .menu a {
+          text-decoration: none;
+          color: #1c1b1b;
+        }
+
+        @-webkit-keyframes swing {
+          15% {
+            -webkit-transform: translateY(7px);
+            transform: translateY(7px);
+          }
+        }
+
+        @keyframes swing {
+          15% {
+            -webkit-transform: translateY(7px);
+            transform: translateY(7px);
+          }
+        }
+
+        .swing:hover {
+          -webkit-animation: swing 1s ease;
+          animation: swing 1s ease;
+          -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+        }
+
+        .swing:hover {
+          text-decoration: none;
+          color: #1c1b1b
+        }
+
+        .mySlides {
+          margin-top: 30px;
+          padding: 0;
+          width: 100%;
+          text-align: center;
+        }
+
+        .mySlides img {
+          display: inline;
+          margin-left: 0;
+          margin-right: 0;
+          position: relative;
+          width: 400px;
+          height: 400px;
+          object-fit: cover;
+          text-align: center;
+          aspect-rato: 1/1;
+          border-radius: 6px;
+        }
+
+        .display_none {
+          display: none;
+        }
+
+        @media only screen and (max-width: 600px) {
+          .mySlides img {
+            margin: 0;
+            width: 97%;
+          }
+        }
+
+        .prev,
+        .next {
+          display: none;
+        }
+
+        /* Position the "next button" to the right */
+        .next {
+          display: none;
+        }
+
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover,
+        .next:hover {
+          display: none;
+        }
+
+        .fade {
+          animation-name: fade;
+          animation-duration: 3.5s;
+        }
+
+        @keyframes fade {
+          from {
+            opacity: .2;
+          }
+
+          to {
+            opacity: 1;
+          }
+        }
+
+        @media only screen and (max-width: 300px) {
+
+          .prev,
+          .next,
+          .text {
+            display: none;
+          }
+        }
+
+        .footer {
+          margin: auto;
+          padding-bottom: 15%;
+          width: 100%;
+          text-align: center;
+        }
+
+        .footer p,
+        a {
+          padding-left: 2%;
+          padding-right: 2%;
+          font-weight: bold;
+          display: inline;
+          padding-bottom: 15%;
+          text-decoration: none;
+          color: grey;
+          font-size: 13px;
+        }
+
+        .footer p,
+        a:hover {
+          padding-left: 2%;
+          padding-right: 2%;
+          font-weight: bold;
+          display: inline;
+          padding-bottom: 15%;
+          text-decoration: none;
+          color: #1c1b1b;
+          font-size: 13px;
+        }
+
+        @media only screen and (max-width: 600px) {
+
+          .footer p,
+          a {
+            display: block;
+            margin-right: 0%;
+            padding-bottom: 0%;
+            text-decoration: none;
+            color: #1c1b1b;
+            font-size: 13px;
+          }
+        }
+        }
+
+      </style>
+    </head>
+
+    <div class="header">
+      <img style="height: 140px; width: 140px;" src="https://thetelavivi.com/wp-content/uploads/2022/08/Logo-Transparent-2.svg">
+      <button class="menu swing"><a href="https://thetelavivi.com/the-tel-aviv-real-estate-market/lifestyle/">
+          lifestyle</a></button>
+      <button class="menu swing"><a href="https://thetelavivi.com/the-tel-aviv-real-estate-market/architecture/">
+          architecture & design</a></button>
+      <button class="menu swing"><a href="https://thetelavivi.com/the-tel-aviv-real-estate-market/tel-aviv-real-estate/">housing market</a>
+      </button><button class="menu swing"><a href="https://thetelavivi.com/the-tel-aviv-real-estate-market/our-tel-aviv-properties/">our tel aviv properties</a>
+      </button>
+      <button class="menu swing"><a href="https://thetelavivi.com/contact-us/">contact us</a></button>
+    </div>
+    <hr>
+
+  <body>
+    <div class="display_none">
+      <h2>telavivian</h2>
+      <h3>telavivian</h3>
+      <h4>telavivian</h4>
+      <h5>telavivian</h5>
+      <h6>telavivian</h6>
+      <p>telavivian</p>
+      <h2>tel aviv lifestyle</h2>
+      <h3>tel aviv lifestyle</h3>
+      <h4>tel aviv lifestyle</h4>
+      <h5>tel aviv lifestyle</h5>
+      <h6>tel aviv lifestyle</h6>
+      <p>tel aviv lifestyle</p>
+      <h2>tel aviv architecture</h2>
+      <h3>tel aviv architecture</h3>
+      <h4>tel aviv architecture</h4>
+      <h5>tel aviv architecture</h5>
+      <h6>tel aviv architecture</h6>
+      <p>tel aviv architecture</p>
+      <h2>tel aviv design</h2>
+      <h3>tel aviv design</h3>
+      <h4>tel aviv design</h4>
+      <h5>tel aviv design</h5>
+      <h6>tel aviv design</h6>
+      <p>tel aviv design</p>
+      <h2>tel aviv restaurants</h2>
+      <h3>tel aviv restaurants</h3>
+      <h4>tel aviv restaurants</h4>
+      <h5>tel aviv restaurants</h5>
+      <h6>tel aviv restaurants</h6>
+      <p>tel aviv restaurants</p>
+      <h2>tel aviv real estate</h2>
+      <h3>tel aviv real estate</h3>
+      <h4>tel aviv real estate</h4>
+      <h5>tel aviv real estate</h5>
+      <h6>tel aviv real estate</h6>
+      <p>tel aviv real estate</p>
+      <h2>tel aviv bauhaus</h2>
+      <h3>tel aviv bauhaus</h3>
+      <h4>tel aviv bauhaus</h4>
+      <h5>tel aviv bauhaus</h5>
+      <h6>tel aviv bauhaus</h6>
+      <p>tel aviv bauhaus</p>
+      <h2>telavivian lifestyle</h2>
+      <h3>telavivian lifestyle</h3>
+      <h4>telavivian lifestyle</h4>
+      <h5>telavivian lifestyle</h5>
+      <h6>telavivian lifestyle</h6>
+      <p>telavivian lifestyle</p>
+      <h2>telavivian architecture</h2>
+      <h3>telavivian architecture</h3>
+      <h4>telavivian architecture</h4>
+      <h5>telavivian architecture</h5>
+      <h6>telavivian architecture</h6>
+      <p>telavivian architecture</p>
+      <h2>telavivian design</h2>
+      <h3>telavivian design</h3>
+      <h4>telavivian design</h4>
+      <h5>telavivian design</h5>
+      <h6>telavivian design</h6>
+      <p>telavivian design</p>
+      <h2>telavivian restaurants</h2>
+      <h3>telavivian restaurants</h3>
+      <h4>telavivian restaurants</h4>
+      <h5>telavivian restaurants</h5>
+      <h6>telavivian restaurants</h6>
+      <p>telavivian restaurants</p>
+      <h2>telavivian real estate</h2>
+      <h3>telavivian real estate</h3>
+      <h4>telavivian real estate</h4>
+      <h5>telavivian real estate</h5>
+      <h6>telavivian real estate</h6>
+      <p>telavivian real estate</p>
+      <h2>telavivian bauhaus</h2>
+      <h3>telavivian bauhaus</h3>
+      <h4>telavivian bauhaus</h4>
+      <h5>telavivian bauhaus</h5>
+      <h6>telavivian bauhaus</h6>
+      <p>telavivian bauhaus</p>
+      <h2>Le top 5 des meilleurs restaurants cacher de tel aviv</h2>
+      <h3>Le top 5 des meilleurs restaurants cacher de tel aviv</h3>
+      <h4>Le top 5 des meilleurs restaurants cacher de tel aviv</h4>
+      <h5>Le top 5 des meilleurs restaurants cacher de tel aviv</h5>
+      <h6>Le top 5 des meilleurs restaurants cacher de tel aviv</h6>
+      <p>Le top 5 des meilleurs restaurants cacher de tel aviv</p>
+      <h2>Le top 5 des meilleurs restaurants kacher de tel aviv</h2>
+      <h3>Le top 5 des meilleurs restaurants kacher de tel aviv</h3>
+      <h4>Le top 5 des meilleurs restaurants kacher de tel aviv</h4>
+      <h5>Le top 5 des meilleurs restaurants kacher de tel aviv</h5>
+      <h6>Le top 5 des meilleurs restaurants kacher de tel aviv</h6>
+      <p>Le top 5 des meilleurs restaurants kacher de tel aviv</p>
+      <h2>Le top 5 des meilleurs restaurants kascher de tel aviv</h2>
+      <h3>Le top 5 des meilleurs restaurants kascher de tel aviv</h3>
+      <h4>Le top 5 des meilleurs restaurants kascher de tel aviv</h4>
+      <h5>Le top 5 des meilleurs restaurants kascher de tel aviv</h5>
+      <h6>Le top 5 des meilleurs restaurants kascher de tel aviv</h6>
+      <p>Le top 5 des meilleurs restaurants kascher de tel aviv</p>
+      <h2>Le top 5 des meilleurs restaurants cascher de tel aviv</h2>
+      <h3>Le top 5 des meilleurs restaurants cascher de tel aviv</h3>
+      <h4>Le top 5 des meilleurs restaurants cascher de tel aviv</h4>
+      <h5>Le top 5 des meilleurs restaurants cascher de tel aviv</h5>
+      <h6>Le top 5 des meilleurs restaurants cascher de tel aviv</h6>
+      <p>Le top 5 des meilleurs restaurants cascher de tel aviv</p>
+
+
+
+
+
+      <h2>Hess 4 New Project For Sale In Tel Aviv</h2>
+      <h3>Hess 4 New Project For Sale In Tel Aviv</h3>
+      <h4>Hess 4 New Project For Sale In Tel Aviv</h4>
+      <h5>Hess 4 New Project For Sale In Tel Aviv</h5>
+      <h6>Hess 4 New Project For Sale In Tel Aviv</h6>
+      <p>Hess 4 New Project For Sale In Tel Aviv</p>
+      <h2>bauhaus</h2>
+      <h3>bauhaus</h3>
+      <h4>bauhaus</h4>
+      <h5>bauhaus</h5>
+      <h6>bauhaus</h6>
+      <p>bauhaus</p>
+      <h2>luxury project in tel aviv</h2>
+      <h3>luxury project in tel aviv</h3>
+      <h4>luxury project in tel aviv</h4>
+      <h5>luxury project in tel aviv</h5>
+      <h6>luxury project in tel aviv</h6>
+      <p>luxury project in tel aviv</p>
+      <h2>luxury apartment in tel aviv</h2>
+      <h3>luxury apartment in tel aviv</h3>
+      <h4>luxury apartment in tel aviv</h4>
+      <h5>luxury apartment in tel aviv</h5>
+      <h6>luxury apartment in tel aviv</h6>
+      <p>luxury apartment in tel aviv</p>
+      <h2>bauhaus apartments for sale in tel aviv</h2>
+      <h3>bauhaus apartments for sale in tel aviv</h3>
+      <h4>bauhaus apartments for sale in tel aviv</h4>
+      <h5>bauhaus apartments for sale in tel aviv</h5>
+      <h6>bauhaus apartments for sale in tel aviv</h6>
+      <p>bauhaus apartments for sale in tel aviv</p>
+
+      <h2>hess-4-nouveau-projet-a-vendre-a-tel-aviv</h2>
+      <h3>hess-4-nouveau-projet-a-vendre-a-tel-aviv</h3>
+      <h4>hess-4-nouveau-projet-a-vendre-a-tel-aviv</h4>
+      <h5>hess-4-nouveau-projet-a-vendre-a-tel-aviv</h5>
+      <h6>hess-4-nouveau-projet-a-vendre-a-tel-aviv</h6>
+      <p>hess-4-nouveau-projet-a-vendre-a-tel-aviv</p>
+      <h2>hess-4-nouveau-programme-a-vendre-a-tel-aviv</h2>
+      <h3>hess-4-nouveau-programme-a-vendre-a-tel-aviv</h3>
+      <h4>hess-4-nouveau-programme-a-vendre-a-tel-aviv</h4>
+      <h5>hess-4-nouveau-programme-a-vendre-a-tel-aviv</h5>
+      <h6>hess-4-nouveau-programme-a-vendre-a-tel-aviv</h6>
+      <p>hess-4-nouveau-programme-a-vendre-a-tel-aviv</p>
+      <h2>bauhaus</h2>
+      <h3>bauhaus</h3>
+      <h4>bauhaus</h4>
+      <h5>bauhaus</h5>
+      <h6>bauhaus</h6>
+      <p>bauhaus</p>
+      <h2>projet de luxe à tel aviv</h2>
+      <h3>projet de luxe à tel aviv</h3>
+      <h4>projet de luxe à tel aviv</h4>
+      <h5>projet de luxe à tel aviv</h5>
+      <h6>projet de luxe à tel aviv</h6>
+      <p>projet de luxe à tel aviv</p>
+      <h2>appartement de luxe à tel aviv</h2>
+      <h3>appartement de luxe à tel aviv</h3>
+      <h4>appartement de luxe à tel aviv</h4>
+      <h5>appartement de luxe à tel aviv</h5>
+      <h6>appartement de luxe à tel aviv</h6>
+      <p>appartement de luxe à tel aviv</p>
+      <h2>appartements bauhaus à vendre à tel aviv</h2>
+      <h3>appartements bauhaus à vendre à tel aviv</h3>
+      <h4>appartements bauhaus à vendre à tel aviv</h4>
+      <h5>appartements bauhaus à vendre à tel aviv</h5>
+      <h6>appartements bauhaus à vendre à tel aviv</h6>
+      <p>appartements bauhaus à vendre à tel aviv</p>
+      <h2>appartements de luxe bauhaus à vendre à tel aviv</h2>
+      <h3>appartements de luxe bauhaus à vendre à tel aviv</h3>
+      <h4>appartements de luxe bauhaus à vendre à tel aviv</h4>
+      <h5>appartements de luxe bauhaus à vendre à tel aviv</h5>
+      <h6>appartements de luxe bauhaus à vendre à tel aviv</h6>
+      <p>appartements de luxe bauhaus à vendre à tel aviv</p>
+      <h2>hess 4 nouveau programme à vendre à tel aviv</h2>
+      <h3>hess 4 nouveau programme à vendre à tel aviv</h3>
+      <h4>hess 4 nouveau programme à vendre à tel aviv</h4>
+      <h5>hess 4 nouveau programme à vendre à tel aviv</h5>
+      <h6>hess 4 nouveau programme à vendre à tel aviv</h6>
+      <p>hess 4 nouveau programme à vendre à tel aviv</p>
+
+      <h2>Top 5 best kosher restaurants in Tel Aviv</h2>
+      <h3>Top 5 best kosher restaurants in Tel Aviv</h3>
+      <h4>Top 5 best kosher restaurants in Tel Aviv</h4>
+      <h5>Top 5 best kosher restaurants in Tel Aviv</h5>
+      <h6>Top 5 best kosher restaurants in Tel Aviv</h6>
+      <p>Top 5 best kosher restaurants in Tel Aviv</p>
+      <h2>Top 5 kosher restaurants</h2>
+      <h3>Top 5 kosher restaurants</h3>
+      <h4>Top 5 kosher restaurants</h4>
+      <h5>Top 5 kosher restaurants</h5>
+      <h6>Top 5 kosher restaurants</h6>
+      <p>Top 5 kosher restaurants</p>
+      <h2>kosher</h2>
+      <h3>kosher</h3>
+      <h4>kosher</h4>
+      <h5>kosher</h5>
+      <h6>kosher</h6>
+      <p>kosher</p>
+      <h2>restaurants</h2>
+      <h3>restaurants</h3>
+      <h4>restaurants</h4>
+      <h5>restaurants</h5>
+      <h6>restaurants</h6>
+      <p>restaurants</p>
+      <h2>tel aviv </h2>
+      <h3>tel aviv </h3>
+      <h4>tel aviv </h4>
+      <h5>tel aviv </h5>
+      <h6>tel aviv </h6>
+      <p>tel aviv </p>
+      <h2>best restaurants</h2>
+      <h3>best restaurants</h3>
+      <h4>best restaurants</h4>
+      <h5>best restaurants</h5>
+      <h6>best restaurants</h6>
+      <p>best restaurants</p>
+      <h2>best kosher restaurant</h2>
+      <h3>best kosher restaurant</h3>
+      <h4>best kosher restaurant</h4>
+      <h5>best kosher restaurant</h5>
+      <h6>best kosher restaurant</h6>
+      <p>best kosher restaurant</p>
+      <h2>best kosher restaurants</h2>
+      <h3>best kosher restaurants</h3>
+      <h4>best kosher restaurants</h4>
+      <h5>best kosher restaurants</h5>
+      <h6>best kosher restaurants</h6>
+      <p>best kosher restaurants</p>
+      <h2>dining in tel aviv</h2>
+      <h3>dining in tel aviv</h3>
+      <h4>dining in tel aviv</h4>
+      <h5>dining in tel aviv</h5>
+      <h6>dining in tel aviv</h6>
+      <p>dining in tel aviv</p>
+      <h2>kosher dining in tel aviv</h2>
+      <h3>kosher dining in tel aviv</h3>
+      <h4>kosher dining in tel aviv</h4>
+      <h5>kosher dining in tel aviv</h5>
+      <h6>kosher dining in tel aviv</h6>
+      <p>kosher dining in tel aviv</p>
+      <h2>visit tel aviv </h2>
+      <h3>visit tel aviv </h3>
+      <h4>visit tel aviv </h4>
+      <h5>visit tel aviv </h5>
+      <h6>visit tel aviv </h6>
+      <p>visit tel aviv </p>
+      <h2>tel aviv kosher guide</h2>
+      <h3>tel aviv kosher guide</h3>
+      <h4>tel aviv kosher guide</h4>
+      <h5>tel aviv kosher guide</h5>
+      <h6>tel aviv kosher guide</h6>
+      <p>tel aviv kosher guide</p>
+      <h2>tel aviv</h2>
+      <h3>tel aviv</h3>
+      <h4>tel aviv</h4>
+      <h5>tel aviv</h5>
+      <h6>tel aviv</h6>
+      <p>tel aviv</p>
+      <h2>TLV</h2>
+      <h3>TLV</h3>
+      <h4>TLV</h4>
+      <h5>TLV</h5>
+      <h6>TLV</h6>
+      <p>TLV</p>
+      <h2>properties for sale tel aviv</h2>
+      <h3>properties for sale tel aviv</h3>
+      <h4>properties for sale tel aviv</h4>
+      <h5>properties for sale tel aviv</h5>
+      <h6>properties for sale tel aviv</h6>
+      <p>properties for sale tel aviv</p>
+      <h2>apartment for sale in tel aviv </h2>
+      <h3>apartment for sale in tel aviv </h3>
+      <h4>apartment for sale in tel aviv </h4>
+      <h5>apartment for sale in tel aviv </h5>
+      <h6>apartment for sale in tel aviv </h6>
+      <p>apartment for sale in tel aviv </p>
+      <h2>tel aviv properties</h2>
+      <h3>tel aviv properties</h3>
+      <h4>tel aviv properties</h4>
+      <h5>tel aviv properties</h5>
+      <h6>tel aviv properties</h6>
+      <p>tel aviv properties</p>
+      <h2>israel real estate</h2>
+      <h3>israel real estate</h3>
+      <h4>israel real estate</h4>
+      <h5>israel real estate</h5>
+      <h6>israel real estate</h6>
+      <p>israel real estate</p>
+      <h2>real estate tel aviv</h2>
+      <h3>real estate tel aviv</h3>
+      <h4>real estate tel aviv</h4>
+      <h5>real estate tel aviv</h5>
+      <h6>real estate tel aviv</h6>
+      <p>real estate tel aviv</p>
+      <h2>the best restaurant in tel aviv 2022</h2>
+      <h3>the best restaurant in tel aviv 2022</h3>
+      <h4>the best restaurant in tel aviv 2022</h4>
+      <h5>the best restaurant in tel aviv 2022</h5>
+      <h6>the best restaurant in tel aviv 2022</h6>
+      <p>the best restaurant in tel aviv 2022</p>
+      <h2>2022 best tel aviv restaurant</h2>
+      <h3>2022 best tel aviv restaurant</h3>
+      <h4>2022 best tel aviv restaurant</h4>
+      <h5>2022 best tel aviv restaurant</h5>
+      <h6>2022 best tel aviv restaurant</h6>
+      <p>2022 best tel aviv restaurant</p>
+      <h2>2022 best tel aviv restaurant</h2>
+      <h3>2022 best tel aviv restaurant</h3>
+      <h4>2022 best tel aviv restaurant</h4>
+      <h5>2022 best tel aviv restaurant</h5>
+      <h6>2022 best tel aviv restaurant</h6>
+      <p>2022 best tel aviv restaurant</p>
+      <h2>the Tel Aviv 2022 best restaurant</h2>
+      <h3>the Tel Aviv 2022 best restaurant</h3>
+      <h4>the Tel Aviv 2022 best restaurant</h4>
+      <h5>the Tel Aviv 2022 best restaurant</h5>
+      <h6>the Tel Aviv 2022 best restaurant</h6>
+      <p>the Tel Aviv 2022 best restaurant</p>
+      <h2>The 2022 Best Tel Aviv Restaurant </h2>
+      <h3>The 2022 Best Tel Aviv Restaurant </h3>
+      <h4>The 2022 Best Tel Aviv Restaurant </h4>
+      <h5>The 2022 Best Tel Aviv Restaurant </h5>
+      <h6>The 2022 Best Tel Aviv Restaurant </h6>
+      <p>The 2022 Best Tel Aviv Restaurant </p>
+
+      <h2>2023 tel aviv real estate</h2>
+      <h3>2023 tel aviv real estate</h3>
+      <h4>2023 tel aviv real estate</h4>
+      <h5>2023 tel aviv real estate</h5>
+      <h6>2023 tel aviv real estate</h6>
+      <p>2023 tel aviv real estate</p>
+      <h2>housing market</h2>
+      <h3>housing market</h3>
+      <h4>housing market</h4>
+      <h5>housing market</h5>
+      <h6>housing market</h6>
+      <p>housing market</p>
+      <h2>house market 2022</h2>
+      <h3>house market 2022</h3>
+      <h4>house market 2022</h4>
+      <h5>house market 2022</h5>
+      <h6>house market 2022</h6>
+      <p>house market 2022</p>
+      <h2>housing market prices</h2>
+      <h3>housing market prices</h3>
+      <h4>housing market prices</h4>
+      <h5>housing market prices</h5>
+      <h6>housing market prices</h6>
+      <p>housing market prices</p>
+      <h2>housing price index</h2>
+      <h3>housing price index</h3>
+      <h4>housing price index</h4>
+      <h5>housing price index</h5>
+      <h6>housing price index</h6>
+      <p>housing price index</p>
+      <h2>home prices</h2>
+      <h3>home prices</h3>
+      <h4>home prices</h4>
+      <h5>home prices</h5>
+      <h6>home prices</h6>
+      <p>home prices</p>
+      <h2>housing prices</h2>
+      <h3>housing prices</h3>
+      <h4>housing prices</h4>
+      <h5>housing prices</h5>
+      <h6>housing prices</h6>
+      <p>housing prices</p>
+      <h2>the housing market</h2>
+      <h3>the housing market</h3>
+      <h4>the housing market</h4>
+      <h5>the housing market</h5>
+      <h6>the housing market</h6>
+      <p>the housing market</p>
+      <h2>median house price</h2>
+      <h3>median house price</h3>
+      <h4>median house price</h4>
+      <h5>median house price</h5>
+      <h6>median house price</h6>
+      <p>median house price</p>
+      <h2>house prices rise</h2>
+      <h3>house prices rise</h3>
+      <h4>house prices rise</h4>
+      <h5>house prices rise</h5>
+      <h6>house prices rise</h6>
+      <p>house prices rise</p>
+      <h2>houses on the market</h2>
+      <h3>houses on the market</h3>
+      <h4>houses on the market</h4>
+      <h5>houses on the market</h5>
+      <h6>houses on the market</h6>
+      <p>houses on the market</p>
+      <h2>housing report</h2>
+      <h3>housing report</h3>
+      <h4>housing report</h4>
+      <h5>housing report</h5>
+      <h6>housing report</h6>
+      <p>housing report</p>
+      <h2>prices rising</h2>
+      <h3>prices rising</h3>
+      <h4>prices rising</h4>
+      <h5>prices rising</h5>
+      <h6>prices rising</h6>
+      <p>prices rising</p>
+      <h2>housing market decline</h2>
+      <h3>housing market decline</h3>
+      <h4>housing market decline</h4>
+      <h5>housing market decline</h5>
+      <h6>housing market decline</h6>
+      <p>housing market decline</p>
+      <h2>median home prices</h2>
+      <h3>median home prices</h3>
+      <h4>median home prices</h4>
+      <h5>median home prices</h5>
+      <h6>median home prices</h6>
+      <p>median home prices</p>
+      <h2>home prices rising</h2>
+      <h3>home prices rising</h3>
+      <h4>home prices rising</h4>
+      <h5>home prices rising</h5>
+      <h6>home prices rising</h6>
+      <p>home prices rising</p>
+      <h2>housing market report</h2>
+      <h3>housing market report</h3>
+      <h4>housing market report</h4>
+      <h5>housing market report</h5>
+      <h6>housing market report</h6>
+      <p>housing market report</p>
+      <h2>market housing</h2>
+      <h3>market housing</h3>
+      <h4>market housing</h4>
+      <h5>market housing</h5>
+      <h6>market housing</h6>
+      <p>market housing</p>
+      <h2>on the market house prices</h2>
+      <h3>on the market house prices</h3>
+      <h4>on the market house prices</h4>
+      <h5>on the market house prices</h5>
+      <h6>on the market house prices</h6>
+      <p>on the market house prices</p>
+      <h2>housing economy</h2>
+      <h3>housing economy</h3>
+      <h4>housing economy</h4>
+      <h5>housing economy</h5>
+      <h6>housing economy</h6>
+      <p>housing economy</p>
+      <h2>housing numbers</h2>
+      <h3>housing numbers</h3>
+      <h4>housing numbers</h4>
+      <h5>housing numbers</h5>
+      <h6>housing numbers</h6>
+      <p>housing numbers</p>
+      <h2>homes in israel</h2>
+      <h3>homes in israel</h3>
+      <h4>homes in israel</h4>
+      <h5>homes in israel</h5>
+      <h6>homes in israel</h6>
+      <p>homes in israel</p>
+      <h2>the house market</h2>
+      <h3>the house market</h3>
+      <h4>the house market</h4>
+      <h5>the house market</h5>
+      <h6>the house market</h6>
+      <p>the house market</p>
+      <h2>a house has</h2>
+      <h3>a house has</h3>
+      <h4>a house has</h4>
+      <h5>a house has</h5>
+      <h6>a house has</h6>
+      <p>a house has</p>
+      <h2>a house has a</h2>
+      <h3>a house has a</h3>
+      <h4>a house has a</h4>
+      <h5>a house has a</h5>
+      <h6>a house has a</h6>
+      <p>a house has a</p>
+      <h2>home prices decline</h2>
+      <h3>home prices decline</h3>
+      <h4>home prices decline</h4>
+      <h5>home prices decline</h5>
+      <h6>home prices decline</h6>
+      <p>home prices decline</p>
+      <h2>israel house prices</h2>
+      <h3>israel house prices</h3>
+      <h4>israel house prices</h4>
+      <h5>israel house prices</h5>
+      <h6>israel house prices</h6>
+      <p>israel house prices</p>
+      <h2>homes market</h2>
+      <h3>homes market</h3>
+      <h4>homes market</h4>
+      <h5>homes market</h5>
+      <h6>homes market</h6>
+      <p>homes market</p>
+      <h2>house price changes</h2>
+      <h3>house price changes</h3>
+      <h4>house price changes</h4>
+      <h5>house price changes</h5>
+      <h6>house price changes</h6>
+      <p>house price changes</p>
+      <h2>market homes</h2>
+      <h3>market homes</h3>
+      <h4>market homes</h4>
+      <h5>market homes</h5>
+      <h6>market homes</h6>
+      <p>market homes</p>
+      <h2>housing m</h2>
+      <h3>housing m</h3>
+      <h4>housing m</h4>
+      <h5>housing m</h5>
+      <h6>housing m</h6>
+      <p>housing m</p>
+      <h2>real house price index</h2>
+      <h3>real house price index</h3>
+      <h4>real house price index</h4>
+      <h5>real house price index</h5>
+      <h6>real house price index</h6>
+      <p>real house price index</p>
+      <h2>housing in israel</h2>
+      <h3>housing in israel</h3>
+      <h4>housing in israel</h4>
+      <h5>housing in israel</h5>
+      <h6>housing in israel</h6>
+      <p>housing in israel</p>
+      <h2>israel housing market</h2>
+      <h3>israel housing market</h3>
+      <h4>israel housing market</h4>
+      <h5>israel housing market</h5>
+      <h6>israel housing market</h6>
+      <p>israel housing market</p>
+      <h2>home prices index</h2>
+      <h3>home prices index</h3>
+      <h4>home prices index</h4>
+      <h5>home prices index</h5>
+      <h6>home prices index</h6>
+      <p>home prices index</p>
+      <h2>real house prices</h2>
+      <h3>real house prices</h3>
+      <h4>real house prices</h4>
+      <h5>real house prices</h5>
+      <h6>real house prices</h6>
+      <p>real house prices</p>
+      <h2>housing market changes</h2>
+      <h3>housing market changes</h3>
+      <h4>housing market changes</h4>
+      <h5>housing market changes</h5>
+      <h6>housing market changes</h6>
+      <p>housing market changes</p>
+      <h2>house price report</h2>
+      <h3>house price report</h3>
+      <h4>house price report</h4>
+      <h5>house price report</h5>
+      <h6>house price report</h6>
+      <p>house price report</p>
+      <h2>housing prices decline</h2>
+      <h3>housing prices decline</h3>
+      <h4>housing prices decline</h4>
+      <h5>housing prices decline</h5>
+      <h6>housing prices decline</h6>
+      <p>housing prices decline</p>
+      <h2>august housing market</h2>
+      <h3>august housing market</h3>
+      <h4>august housing market</h4>
+      <h5>august housing market</h5>
+      <h6>august housing market</h6>
+      <p>august housing market</p>
+      <h2>housing market articles</h2>
+      <h3>housing market articles</h3>
+      <h4>housing market articles</h4>
+      <h5>housing market articles</h5>
+      <h6>housing market articles</h6>
+      <p>housing market articles</p>
+      <h2>housing market price index</h2>
+      <h3>housing market price index</h3>
+      <h4>housing market price index</h4>
+      <h5>housing market price index</h5>
+      <h6>housing market price index</h6>
+      <p>housing market price index</p>
+      <h2>housing market rise</h2>
+      <h3>housing market rise</h3>
+      <h4>housing market rise</h4>
+      <h5>housing market rise</h5>
+      <h6>housing market rise</h6>
+      <p>housing market rise</p>
+      <h2>israel prices</h2>
+      <h3>israel prices</h3>
+      <h4>israel prices</h4>
+      <h5>israel prices</h5>
+      <h6>israel prices</h6>
+      <p>israel prices</p>
+      <h2>tel aviv house prices</h2>
+      <h3>tel aviv house prices</h3>
+      <h4>tel aviv house prices</h4>
+      <h5>tel aviv house prices</h5>
+      <h6>tel aviv house prices</h6>
+      <p>tel aviv house prices</p>
+      <h2>housing decline</h2>
+      <h3>housing decline</h3>
+      <h4>housing decline</h4>
+      <h5>housing decline</h5>
+      <h6>housing decline</h6>
+      <p>housing decline</p>
+      <h2>housing market numbers</h2>
+      <h3>housing market numbers</h3>
+      <h4>housing market numbers</h4>
+      <h5>housing market numbers</h5>
+      <h6>housing market numbers</h6>
+      <p>housing market numbers</p>
+      <h2>housing market economy</h2>
+      <h3>housing market economy</h3>
+      <h4>housing market economy</h4>
+      <h5>housing market economy</h5>
+      <h6>housing market economy</h6>
+      <p>housing market economy</p>
+      <h2>home prices in</h2>
+      <h3>home prices in</h3>
+      <h4>home prices in</h4>
+      <h5>home prices in</h5>
+      <h6>home prices in</h6>
+      <p>home prices in</p>
+      <h2>house prices august</h2>
+      <h3>house prices august</h3>
+      <h4>house prices august</h4>
+      <h5>house prices august</h5>
+      <h6>house prices august</h6>
+      <p>house prices august</p>
+      <h2>tel aviv homes</h2>
+      <h3>tel aviv homes</h3>
+      <h4>tel aviv homes</h4>
+      <h5>tel aviv homes</h5>
+      <h6>tel aviv homes</h6>
+      <p>tel aviv homes</p>
+      <h2>house price index report</h2>
+      <h3>house price index report</h3>
+      <h4>house price index report</h4>
+      <h5>house price index report</h5>
+      <h6>house price index report</h6>
+      <p>house price index report</p>
+      <h2>real home price index</h2>
+      <h3>real home price index</h3>
+      <h4>real home price index</h4>
+      <h5>real home price index</h5>
+      <h6>real home price index</h6>
+      <p>real home price index</p>
+      <h2>in the housing market</h2>
+      <h3>in the housing market</h3>
+      <h4>in the housing market</h4>
+      <h5>in the housing market</h5>
+      <h6>in the housing market</h6>
+      <p>in the housing market</p>
+      <h2>changes in housing market</h2>
+      <h3>changes in housing market</h3>
+      <h4>changes in housing market</h4>
+      <h5>changes in housing market</h5>
+      <h6>changes in housing market</h6>
+      <p>changes in housing market</p>
+      <h2>home market price</h2>
+      <h3>home market price</h3>
+      <h4>home market price</h4>
+      <h5>home market price</h5>
+      <h6>home market price</h6>
+      <p>home market price</p>
+      <h2>house of market</h2>
+      <h3>house of market</h3>
+      <h4>house of market</h4>
+      <h5>house of market</h5>
+      <h6>house of market</h6>
+      <p>house of market</p>
+      <h2>israel house price index</h2>
+      <h3>israel house price index</h3>
+      <h4>israel house price index</h4>
+      <h5>israel house price index</h5>
+      <h6>israel house price index</h6>
+      <p>israel house price index</p>
+      <h2>tel aviv housing</h2>
+      <h3>tel aviv housing</h3>
+      <h4>tel aviv housing</h4>
+      <h5>tel aviv housing</h5>
+      <h6>tel aviv housing</h6>
+      <p>tel aviv housing</p>
+      <h2>home prices in israel</h2>
+      <h3>home prices in israel</h3>
+      <h4>home prices in israel</h4>
+      <h5>home prices in israel</h5>
+      <h6>home prices in israel</h6>
+      <p>home prices in israel</p>
+      <h2>house market rates</h2>
+      <h3>house market rates</h3>
+      <h4>house market rates</h4>
+      <h5>house market rates</h5>
+      <h6>house market rates</h6>
+      <p>house market rates</p>
+      <h2>housing market august</h2>
+      <h3>housing market august</h3>
+      <h4>housing market august</h4>
+      <h5>housing market august</h5>
+      <h6>housing market august</h6>
+      <p>housing market august</p>
+      <h2>change in housing market</h2>
+      <h3>change in housing market</h3>
+      <h4>change in housing market</h4>
+      <h5>change in housing market</h5>
+      <h6>change in housing market</h6>
+      <p>change in housing market</p>
+      <h2>housing market in</h2>
+      <h3>housing market in</h3>
+      <h4>housing market in</h4>
+      <h5>housing market in</h5>
+      <h6>housing market in</h6>
+      <p>housing market in</p>
+      <h2>august house prices</h2>
+      <h3>august house prices</h3>
+      <h4>august house prices</h4>
+      <h5>august house prices</h5>
+      <h6>august house prices</h6>
+      <p>august house prices</p>
+      <h2>housing market and economy</h2>
+      <h3>housing market and economy</h3>
+      <h4>housing market and economy</h4>
+      <h5>housing market and economy</h5>
+      <h6>housing market and economy</h6>
+      <p>housing market and economy</p>
+      <h2>economy housing market</h2>
+      <h3>economy housing market</h3>
+      <h4>economy housing market</h4>
+      <h5>economy housing market</h5>
+      <h6>economy housing market</h6>
+      <p>economy housing market</p>
+      <h2>rising housing markets</h2>
+      <h3>rising housing markets</h3>
+      <h4>rising housing markets</h4>
+      <h5>rising housing markets</h5>
+      <h6>rising housing markets</h6>
+      <p>rising housing markets</p>
+      <h2>median housing</h2>
+      <h3>median housing</h3>
+      <h4>median housing</h4>
+      <h5>median housing</h5>
+      <h6>median housing</h6>
+      <p>median housing</p>
+      <h2>house in market</h2>
+      <h3>house in market</h3>
+      <h4>house in market</h4>
+      <h5>house in market</h5>
+      <h6>house in market</h6>
+      <p>house in market</p>
+      <h2>real home prices</h2>
+      <h3>real home prices</h3>
+      <h4>real home prices</h4>
+      <h5>real home prices</h5>
+      <h6>real home prices</h6>
+      <p>real home prices</p>
+      <h2>housing prices in</h2>
+      <h3>housing prices in</h3>
+      <h4>housing prices in</h4>
+      <h5>housing prices in</h5>
+      <h6>housing prices in</h6>
+      <p>housing prices in</p>
+      <h2>house prices are rising</h2>
+      <h3>house prices are rising</h3>
+      <h4>house prices are rising</h4>
+      <h5>house prices are rising</h5>
+      <h6>house prices are rising</h6>
+      <p>house prices are rising</p>
+      <h2>home price report</h2>
+      <h3>home price report</h3>
+      <h4>home price report</h4>
+      <h5>home price report</h5>
+      <h6>home price report</h6>
+      <p>home price report</p>
+      <h2>index for housing market</h2>
+      <h3>index for housing market</h3>
+      <h4>index for housing market</h4>
+      <h5>index for housing market</h5>
+      <h6>index for housing market</h6>
+      <p>index for housing market</p>
+      <h2>market price housing</h2>
+      <h3>market price housing</h3>
+      <h4>market price housing</h4>
+      <h5>market price housing</h5>
+      <h6>market price housing</h6>
+      <p>market price housing</p>
+      <h2>house price rate</h2>
+      <h3>house price rate</h3>
+      <h4>house price rate</h4>
+      <h5>house price rate</h5>
+      <h6>house price rate</h6>
+      <p>house price rate</p>
+      <h2>housing segment</h2>
+      <h3>housing segment</h3>
+      <h4>housing segment</h4>
+      <h5>housing segment</h5>
+      <h6>housing segment</h6>
+      <p>housing segment</p>
+      <h2>housing market home prices</h2>
+      <h3>housing market home prices</h3>
+      <h4>housing market home prices</h4>
+      <h5>housing market home prices</h5>
+      <h6>housing market home prices</h6>
+      <p>housing market home prices</p>
+      <h2>home house prices</h2>
+      <h3>home house prices</h3>
+      <h4>home house prices</h4>
+      <h5>home house prices</h5>
+      <h6>home house prices</h6>
+      <p>home house prices</p>
+      <h2>number of houses on the market</h2>
+      <h3>number of houses on the market</h3>
+      <h4>number of houses on the market</h4>
+      <h5>number of houses on the market</h5>
+      <h6>number of houses on the market</h6>
+      <p>number of houses on the market</p>
+      <h2>median price house</h2>
+      <h3>median price house</h3>
+      <h4>median price house</h4>
+      <h5>median price house</h5>
+      <h6>median price house</h6>
+      <p>median price house</p>
+      <h2>august home prices</h2>
+      <h3>august home prices</h3>
+      <h4>august home prices</h4>
+      <h5>august home prices</h5>
+      <h6>august home prices</h6>
+      <p>august home prices</p>
+      <h2>home price market</h2>
+      <h3>home price market</h3>
+      <h4>home price market</h4>
+      <h5>home price market</h5>
+      <h6>home price market</h6>
+      <p>home price market</p>
+      <h2>housing in israel prices</h2>
+      <h3>housing in israel prices</h3>
+      <h4>housing in israel prices</h4>
+      <h5>housing in israel prices</h5>
+      <h6>housing in israel prices</h6>
+      <p>housing in israel prices</p>
+      <h2>market for homes</h2>
+      <h3>market for homes</h3>
+      <h4>market for homes</h4>
+      <h5>market for homes</h5>
+      <h6>market for homes</h6>
+      <p>market for homes</p>
+      <h2>housing market price decline</h2>
+      <h3>housing market price decline</h3>
+      <h4>housing market price decline</h4>
+      <h5>housing market price decline</h5>
+      <h6>housing market price decline</h6>
+      <p>housing market price decline</p>
+      <h2>which house prices</h2>
+      <h3>which house prices</h3>
+      <h4>which house prices</h4>
+      <h5>which house prices</h5>
+      <h6>which house prices</h6>
+      <p>which house prices</p>
+      <h2>house prices and the economy</h2>
+      <h3>house prices and the economy</h3>
+      <h4>house prices and the economy</h4>
+      <h5>house prices and the economy</h5>
+      <h6>house prices and the economy</h6>
+      <p>house prices and the economy</p>
+      <h2>market housing rates</h2>
+      <h3>market housing rates</h3>
+      <h4>market housing rates</h4>
+      <h5>market housing rates</h5>
+      <h6>market housing rates</h6>
+      <p>market housing rates</p>
+      <h2>median home price index</h2>
+      <h3>median home price index</h3>
+      <h4>median home price index</h4>
+      <h5>median home price index</h5>
+      <h6>median home price index</h6>
+      <p>median home price index</p>
+      <h2>august housing</h2>
+      <h3>august housing</h3>
+      <h4>august housing</h4>
+      <h5>august housing</h5>
+      <h6>august housing</h6>
+      <p>august housing</p>
+      <h2>housing market in decline</h2>
+      <h3>housing market in decline</h3>
+      <h4>housing market in decline</h4>
+      <h5>housing market in decline</h5>
+      <h6>housing market in decline</h6>
+      <p>housing market in decline</p>
+      <h2>house price rise index</h2>
+      <h3>house price rise index</h3>
+      <h4>house price rise index</h4>
+      <h5>house price rise index</h5>
+      <h6>house price rise index</h6>
+      <p>house price rise index</p>
+      <h2>house market economy</h2>
+      <h3>house market economy</h3>
+      <h4>house market economy</h4>
+      <h5>house market economy</h5>
+      <h6>house market economy</h6>
+      <p>house market economy</p>
+      <h2>official house price index</h2>
+      <h3>official house price index</h3>
+      <h4>official house price index</h4>
+      <h5>official house price index</h5>
+      <h6>official house price index</h6>
+      <p>official house price index</p>
+      <h2>house market 2023</h2>
+      <h3>house market 2023</h3>
+      <h4>house market 2023</h4>
+      <h5>house market 2023</h5>
+      <h6>house market 2023</h6>
+      <p>house market 2023</p>
+      <h2>R48 Hotel Tel Aviv</h2>
+      <h3>R48 Hotel Tel Aviv</h3>
+      <h4>R48 Hotel Tel Aviv</h4>
+      <h5>R48 Hotel Tel Aviv</h5>
+      <h6>R48 Hotel Tel Aviv</h6>
+      <p>R48 Hotel Tel Aviv</p>
+
+      <h2>The R48 Hotel Rothschild Tel Aviv </h2>
+      <h3>The R48 Hotel Rothschild Tel Aviv </h3>
+      <h4>The R48 Hotel Rothschild Tel Aviv </h4>
+      <h5>The R48 Hotel Rothschild Tel Aviv </h5>
+      <h6>The R48 Hotel Rothschild Tel Aviv </h6>
+      <p>The R48 Hotel Rothschild Tel Aviv </p>
+
+      <h2>Israel Hotel Investment</h2>
+      <h3>Israel Hotel Investment</h3>
+      <h4>Israel Hotel Investment</h4>
+      <h5>Israel Hotel Investment</h5>
+      <h6>Israel Hotel Investment</h6>
+      <p>Israel Hotel Investment</p>
+      <h2>Tel Aviv Hotel Investement </h2>
+      <h3>Tel Aviv Hotel Investement </h3>
+      <h4>Tel Aviv Hotel Investement </h4>
+      <h5>Tel Aviv Hotel Investement </h5>
+      <h6>Tel Aviv Hotel Investement </h6>
+      <p>Tel Aviv Hotel Investement </p>
+      <h2>Jerusalem Hotel Investment</h2>
+      <h3>Jerusalem Hotel Investment</h3>
+      <h4>Jerusalem Hotel Investment</h4>
+      <h5>Jerusalem Hotel Investment</h5>
+      <h6>Jerusalem Hotel Investment</h6>
+      <p>Jerusalem Hotel Investment</p>
+      <h2>Hotels Israel</h2>
+      <h3>Hotels Israel</h3>
+      <h4>Hotels Israel</h4>
+      <h5>Hotels Israel</h5>
+      <h6>Hotels Israel</h6>
+      <p>Hotels Israel</p>
+      <h2>Hotels Tel Aviv </h2>
+      <h3>Hotels Tel Aviv </h3>
+      <h4>Hotels Tel Aviv </h4>
+      <h5>Hotels Tel Aviv </h5>
+      <h6>Hotels Tel Aviv </h6>
+      <p>Hotels Tel Aviv </p>
+      <h2>Hotels Jerusalem</h2>
+      <h3>Hotels Jerusalem</h3>
+      <h4>Hotels Jerusalem</h4>
+      <h5>Hotels Jerusalem</h5>
+      <h6>Hotels Jerusalem</h6>
+      <p>Hotels Jerusalem</p>
+      <h2>Hospitality Investment</h2>
+      <h3>Hospitality Investment</h3>
+      <h4>Hospitality Investment</h4>
+      <h5>Hospitality Investment</h5>
+      <h6>Hospitality Investment</h6>
+      <p>Hospitality Investment</p>
+      <h2>Five star hotels</h2>
+      <h3>Five star hotels</h3>
+      <h4>Five star hotels</h4>
+      <h5>Five star hotels</h5>
+      <h6>Five star hotels</h6>
+      <p>Five star hotels</p>
+      <h2>Luxury Hotels</h2>
+      <h3>Luxury Hotels</h3>
+      <h4>Luxury Hotels</h4>
+      <h5>Luxury Hotels</h5>
+      <h6>Luxury Hotels</h6>
+      <p>Luxury Hotels</p>
+      <h2>Israel Hotel Investment Summit</h2>
+      <h3>Israel Hotel Investment Summit</h3>
+      <h4>Israel Hotel Investment Summit</h4>
+      <h5>Israel Hotel Investment Summit</h5>
+      <h6>Israel Hotel Investment Summit</h6>
+      <p>Israel Hotel Investment Summit</p>
+      <h2>Ministry of Tourism</h2>
+      <h3>Ministry of Tourism</h3>
+      <h4>Ministry of Tourism</h4>
+      <h5>Ministry of Tourism</h5>
+      <h6>Ministry of Tourism</h6>
+      <p>Ministry of Tourism</p>
+      <h2>Israel </h2>
+      <h3>Israel </h3>
+      <h4>Israel </h4>
+      <h5>Israel </h5>
+      <h6>Israel </h6>
+      <p>Israel </p>
+      <h2>Tel Aviv </h2>
+      <h3>Tel Aviv </h3>
+      <h4>Tel Aviv </h4>
+      <h5>Tel Aviv </h5>
+      <h6>Tel Aviv </h6>
+      <p>Tel Aviv </p>
+      <h2>Jerusalem</h2>
+      <h3>Jerusalem</h3>
+      <h4>Jerusalem</h4>
+      <h5>Jerusalem</h5>
+      <h6>Jerusalem</h6>
+      <p>Jerusalem</p>
+      <h2>Hotel R48 Interior Design and Architecture</h2>
+      <h3>Hotel R48 Interior Design and Architecture</h3>
+      <h4>Hotel R48 Interior Design and Architecture</h4>
+      <h5>Hotel R48 Interior Design and Architecture</h5>
+      <h6>Hotel R48 Interior Design and Architecture</h6>
+      <p>Hotel R48 Interior Design and Architecture</p>
+      <h2>les quartiers de tel aviv</h2>
+      <h3>les quartiers de tel aviv</h3>
+      <h4>les quartiers de tel aviv</h4>
+      <h5>les quartiers de tel aviv</h5>
+      <h6>les quartiers de tel aviv</h6>
+      <p>les quartiers de tel aviv</p>
+      <h2>Tel Aviv Appartements Achat Vente Gestion</h2>
+      <h3>Tel Aviv Appartements Achat Vente Gestion</h3>
+      <h4>Tel Aviv Appartements Achat Vente Gestion</h4>
+      <h5>Tel Aviv Appartements Achat Vente Gestion</h5>
+      <h6>Tel Aviv Appartements Achat Vente Gestion</h6>
+      <p>Tel Aviv Appartements Achat Vente Gestion</p>
+      <h2>tel aviv prix m2</h2>
+      <h3>tel aviv prix m2</h3>
+      <h4>tel aviv prix m2</h4>
+      <h5>tel aviv prix m2</h5>
+      <h6>tel aviv prix m2</h6>
+      <p>tel aviv prix m2</p>
+      <h2>immobilier israel</h2>
+      <h3>immobilier israel</h3>
+      <h4>immobilier israel</h4>
+      <h5>immobilier israel</h5>
+      <h6>immobilier israel</h6>
+      <p>immobilier israel</p>
+      <h2>acheter en israël depuis la france</h2>
+      <h3>acheter en israël depuis la france</h3>
+      <h4>acheter en israël depuis la france</h4>
+      <h5>acheter en israël depuis la france</h5>
+      <h6>acheter en israël depuis la france</h6>
+      <p>acheter en israël depuis la france</p>
+      <h2>israel immobilier</h2>
+      <h3>israel immobilier</h3>
+      <h4>israel immobilier</h4>
+      <h5>israel immobilier</h5>
+      <h6>israel immobilier</h6>
+      <p>israel immobilier</p>
+      <h2>appartement tel aviv</h2>
+      <h3>appartement tel aviv</h3>
+      <h4>appartement tel aviv</h4>
+      <h5>appartement tel aviv</h5>
+      <h6>appartement tel aviv</h6>
+      <p>appartement tel aviv</p>
+      <h2>immobilier israël prix</h2>
+      <h3>immobilier israël prix</h3>
+      <h4>immobilier israël prix</h4>
+      <h5>immobilier israël prix</h5>
+      <h6>immobilier israël prix</h6>
+      <p>immobilier israël prix</p>
+      <h2>achat appartement israel</h2>
+      <h3>achat appartement israel</h3>
+      <h4>achat appartement israel</h4>
+      <h5>achat appartement israel</h5>
+      <h6>achat appartement israel</h6>
+      <p>achat appartement israel</p>
+      <h2>achat appartement tel aviv</h2>
+      <h3>achat appartement tel aviv</h3>
+      <h4>achat appartement tel aviv</h4>
+      <h5>achat appartement tel aviv</h5>
+      <h6>achat appartement tel aviv</h6>
+      <p>achat appartement tel aviv</p>
+      <h2>immobilier Tel Aviv</h2>
+      <h3>immobilier Tel Aviv</h3>
+      <h4>immobilier Tel Aviv</h4>
+      <h5>immobilier Tel Aviv</h5>
+      <h6>immobilier Tel Aviv</h6>
+      <p>immobilier Tel Aviv</p>
+      <h2>Appartement Tel Aviv</h2>
+      <h3>Appartement Tel Aviv</h3>
+      <h4>Appartement Tel Aviv</h4>
+      <h5>Appartement Tel Aviv</h5>
+      <h6>Appartement Tel Aviv</h6>
+      <p>Appartement Tel Aviv</p>
+      <h2>Project immobilier neuf Tel Aviv</h2>
+      <h3>Project immobilier neuf Tel Aviv</h3>
+      <h4>Project immobilier neuf Tel Aviv</h4>
+      <h5>Project immobilier neuf Tel Aviv</h5>
+      <h6>Project immobilier neuf Tel Aviv</h6>
+      <p>Project immobilier neuf Tel Aviv</p>
+      <h2>Appartement a vendre Tel Aviv Neve tzedek</h2>
+      <h3>Appartement a vendre Tel Aviv Neve tzedek</h3>
+      <h4>Appartement a vendre Tel Aviv Neve tzedek</h4>
+      <h5>Appartement a vendre Tel Aviv Neve tzedek</h5>
+      <h6>Appartement a vendre Tel Aviv Neve tzedek</h6>
+      <p>Appartement a vendre Tel Aviv Neve tzedek</p>
+      <h2>Appartement a vendre Tel Aviv</h2>
+      <h3>Appartement a vendre Tel Aviv</h3>
+      <h4>Appartement a vendre Tel Aviv</h4>
+      <h5>Appartement a vendre Tel Aviv</h5>
+      <h6>Appartement a vendre Tel Aviv</h6>
+      <p>Appartement a vendre Tel Aviv</p>
+      <h2>Programme immobilier neuf Tel Aviv</h2>
+      <h3>Programme immobilier neuf Tel Aviv</h3>
+      <h4>Programme immobilier neuf Tel Aviv</h4>
+      <h5>Programme immobilier neuf Tel Aviv</h5>
+      <h6>Programme immobilier neuf Tel Aviv</h6>
+      <p>Programme immobilier neuf Tel Aviv</p>
+      <h2>Appartement Tel Aviv vue mer</h2>
+      <h3>Appartement Tel Aviv vue mer</h3>
+      <h4>Appartement Tel Aviv vue mer</h4>
+      <h5>Appartement Tel Aviv vue mer</h5>
+      <h6>Appartement Tel Aviv vue mer</h6>
+      <p>Appartement Tel Aviv vue mer</p>
+      <h2>Immobilier luxe Tel Aviv</h2>
+      <h3>Immobilier luxe Tel Aviv</h3>
+      <h4>Immobilier luxe Tel Aviv</h4>
+      <h5>Immobilier luxe Tel Aviv</h5>
+      <h6>Immobilier luxe Tel Aviv</h6>
+      <p>Immobilier luxe Tel Aviv</p>
+      <h2>Appartement Tel Aviv vente</h2>
+      <h3>Appartement Tel Aviv vente</h3>
+      <h4>Appartement Tel Aviv vente</h4>
+      <h5>Appartement Tel Aviv vente</h5>
+      <h6>Appartement Tel Aviv vente</h6>
+      <p>Appartement Tel Aviv vente</p>
+      <h2>Immobilier de luxe Tel Aviv</h2>
+      <h3>Immobilier de luxe Tel Aviv</h3>
+      <h4>Immobilier de luxe Tel Aviv</h4>
+      <h5>Immobilier de luxe Tel Aviv</h5>
+      <h6>Immobilier de luxe Tel Aviv</h6>
+      <p>Immobilier de luxe Tel Aviv</p>
+    </div>
     <div class="mySlides fade">
       <img height="400" width="400" src="https://thetelavivi.com/wp-content/uploads/2022/02/Yaffo-Front-Page.001.webp" style="background-color:#dacdc3">
     </div>
-  <div class="mySlides fade">
-    <img src="https://thetelavivi.com/wp-content/uploads/2022/02/Method-Draw-Image-1.webp" style="background-color:#303030">
-  </div>
-  <div class="mySlides fade">
-    <img src="https://thetelavivi.com/wp-content/uploads/2022/03/The-Lenox.001.webp" style="background-color:#013d63">
-  </div>
+    <div class="mySlides fade">
+      <img src="https://thetelavivi.com/wp-content/uploads/2022/02/Method-Draw-Image-1.webp" style="background-color:#303030">
+    </div>
+    <div class="mySlides fade">
+      <img src="https://thetelavivi.com/wp-content/uploads/2022/03/The-Lenox.001.webp" style="background-color:#013d63">
+    </div>
 
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <script>
-    let slideIndex = 0;
-    showSlides();
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <script>
+      let slideIndex = 0;
+      showSlides();
 
-    function showSlides() {
-      let i;
-      let slides = document.getElementsByClassName("mySlides");
-      let dots = document.getElementsByClassName("dot");
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
+      function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {
+          slideIndex = 1
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        setTimeout(showSlides, 5000); // Change image every 2 seconds
       }
-      slideIndex++;
-      if (slideIndex > slides.length) {
-        slideIndex = 1
-      }
-      for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[slideIndex - 1].style.display = "block";
-      dots[slideIndex - 1].className += " active";
-      setTimeout(showSlides, 5000); // Change image every 2 seconds
-    }
-  </script>
-  <br>
-</body>
-<footer>
-  <div class="footer">
-    <p><a href="mailto:hello@thetelavivi.com">
-        hello@thetelavivi.com</a></p>
-    <p><a href="tel:+97233769255">
-        +(972)-3-376-9255</a></p>
-    <p><a href="thttps://www.google.com/maps/place/Alfasi+St+20,+Tel+Aviv-Yafo,+6607720/@32.0529927,34.7671201,17z/data=!3m1!4b1!4m5!3m4!1s0x151d4ca3b5690e1d:0xd4f784afb6313a01!8m2!3d32.0529927!4d34.7671201">alfassi 20, Tel Aviv</a></p>
-  </div>
-</footer>
+
+    </script>
+    <br>
+  </body>
+  <footer>
+    <div class="footer">
+      <p><a href="mailto:hello@thetelavivi.com">
+          hello@thetelavivi.com</a></p>
+      <p><a href="tel:+97233769255">
+          +(972)-3-376-9255</a></p>
+      <p><a href="thttps://www.google.com/maps/place/Alfasi+St+20,+Tel+Aviv-Yafo,+6607720/@32.0529927,34.7671201,17z/data=!3m1!4b1!4m5!3m4!1s0x151d4ca3b5690e1d:0xd4f784afb6313a01!8m2!3d32.0529927!4d34.7671201">alfassi 20, Tel Aviv</a></p>
+    </div>
+  </footer>
 
 </html>
