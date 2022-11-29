@@ -1,13 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html lang="en-US">
-
   <head profile="http://www.w3.org/2005/10/profile">
     <link rel="icon" href="https://thetelavivi.com/wp-content/uploads/2021/08/Cube-colors-3-2.svg" type="image/svg+xml">
 <title>Telavivian</title>
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-HK25BE4VCD"></script>
       <script>
         window.dataLayer = window.dataLayer || [];
-
         function gtag() {
           dataLayer.push(arguments);
         }
@@ -20,23 +18,32 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&display=swap" rel="stylesheet">
-      <style>
-        html {
-          font-family: 'Noto Sans', sans-serif;
-          background-color: #efefef;
-          border-radius: 6px;
+<style>
+ html {
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #efefef;
+  border-radius: 6px;
         }
 .logo {
-  width: 200px;
-  height: auto;
+  width: 100px;
+  height: 100px;
   text-align: center;
-
+  margin:0
 }
-        body {
-          font-family: 'Noto Sans', sans-serif;
-          background-color: white;
-          border-radius: 6px;
-          margin: 1;
+.logo img{
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  
+}
+  body {
+  font-family: 'Noto Sans', sans-serif;
+  background-color: white;
+  border-radius: 6px;
+  margin: 1;
+  padding: 1%
         }
 
         hr {
@@ -53,13 +60,11 @@
           overflow-y: hidden;
           vertical-align: top;
           margin-top: 10px;
-          margin-right: 10%;
+          margin-right: 0%;
         }
-     
-
         button,
         .menu {
-          font-size: 22px;
+          font-size: 24px;
           border: none;
           background-color: transparent;
           width: auto;
@@ -72,46 +77,48 @@
           margin-top: 60px;
           margin-right: 10%;
         }
-
         button,
         .menu a {
-          text-decoration: none;
-          color: #1c1b1b;
+         text-decoration: none;
+         color: #1c1b1b;
+         margin-bottom: 25px;
+         margin-top: 0px;
+         font-size: 18px;
+         letter-spacing: 2px;
         }
-
         @-webkit-keyframes swing {
           15% {
-            -webkit-transform: translateY(7px);
-            transform: translateY(7px);
+            -webkit-transform: translateY(20px);
+            transform: translateY(20px);
           }
         }
-
         @keyframes swing {
           15% {
-            -webkit-transform: translateY(7px);
-            transform: translateY(7px);
+            -webkit-transform: translateY(20px);
+            transform: translateY(20px);
           }
         }
-
-        .swing:hover {
-          -webkit-animation: swing 1s ease;
-          animation: swing 1s ease;
+        button, .swing:hover {
+          -webkit-animation: swing 4s ease;
+          animation: swing 4s ease;
           -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
+          font-size: 18px;
+         letter-spacing: 2px;
         }
-
-        .swing:hover {
+       
+        .swing :hover {
           text-decoration: none;
-          color: #1c1b1b
+          color: #1c1b1b;
+          font-size: 18px;
+         letter-spacing: 2px;
         }
-
         .mySlides {
           margin-top: 30px;
           padding: 0;
           width: 100%;
           text-align: center;
         }
-
         .mySlides img {
           display: inline;
           margin-left: 0;
@@ -124,65 +131,51 @@
           aspect-rato: 1/1;
           border-radius: 6px;
         }
-
         .display_none {
           display: none;
         }
-
         @media only screen and (max-width: 600px) {
           .mySlides img {
             margin: 0;
             width: 97%;
           }
         }
-
         .prev,
         .next {
           display: none;
         }
-
-        /* Position the "next button" to the right */
         .next {
           display: none;
         }
-
-        /* On hover, add a black background color with a little bit see-through */
         .prev:hover,
         .next:hover {
           display: none;
         }
-
         .fade {
           animation-name: fade;
           animation-duration: 3.5s;
         }
-
         @keyframes fade {
           from {
             opacity: .2;
           }
-
           to {
             opacity: 1;
           }
         }
-
         @media only screen and (max-width: 300px) {
-
           .prev,
           .next,
           .text {
             display: none;
           }
         }
-
         .footer {
           margin: auto;
           padding-bottom: 15%;
           width: 100%;
           text-align: center;
         }
-
         .footer p,
         a {
           padding-left: 2%;
@@ -194,7 +187,6 @@
           color: grey;
           font-size: 13px;
         }
-
         .footer p,
         a:hover {
           padding-left: 2%;
@@ -206,9 +198,7 @@
           color: #1c1b1b;
           font-size: 13px;
         }
-
         @media only screen and (max-width: 600px) {
-
           .footer p,
           a {
             display: block;
@@ -220,25 +210,23 @@
           }
         }
         }
-
       </style>
     </head>
-
- <img class="logo" src="https://thetelavivi.com/wp-content/uploads/2022/11/THETELAVIVIAN.001-1.webp">
-
+ <img class="logo" src="https://thetelavivi.com/wp-content/uploads/2022/11/The-Tel-Aviv-Logo-transparent.webp">
     <div class="header">
-     
+     <button class="menu swing"><a href="https://thetelavivi.com/the-tel-aviv-real-estate-market/tel-aviv-neighborhoods/">
+          neighborhoods</a></button>
       <button class="menu swing"><a href="https://thetelavivi.com/the-tel-aviv-real-estate-market/lifestyle/">
           lifestyle</a></button>
       <button class="menu swing"><a href="https://thetelavivi.com/the-tel-aviv-real-estate-market/architecture/">
           architecture & design</a></button>
       <button class="menu swing"><a href="https://thetelavivi.com/the-tel-aviv-real-estate-market/tel-aviv-real-estate/">housing market</a>
-      </button><button class="menu swing"><a href="https://thetelavivi.com/the-tel-aviv-real-estate-market/our-tel-aviv-properties/">our tel aviv properties</a>
+      </button>
+      <button class="menu swing"><a href="https://thetelavivi.com/the-tel-aviv-real-estate-market/our-tel-aviv-properties/">our tel aviv properties</a>
       </button>
       <button class="menu swing"><a href="https://thetelavivi.com/contact-us/">contact us</a></button>
     </div>
     <hr>
-
   <body>
     <div class="display_none">
       <h2>telavivian</h2>
@@ -1381,22 +1369,23 @@
       <p>Immobilier de luxe Tel Aviv</p>
     </div>
     <div class="mySlides fade">
-      <img height="400" width="400" src="https://thetelavivi.com/wp-content/uploads/2022/08/Logo-Transparent.001-e1669195079327.png" style="background-color:#dacdc3">
-    </div>
-    <div class="mySlides fade">
       <img src="https://thetelavivi.com/wp-content/uploads/2022/02/Method-Draw-Image-1.webp" style="background-color:#303030">
     </div>
     <div class="mySlides fade">
       <img src="https://thetelavivi.com/wp-content/uploads/2022/03/The-Lenox.001.webp" style="background-color:#013d63">
     </div>
-
+    <div class="mySlides fade">
+      <img height="400" width="400" src="https://thetelavivi.com/wp-content/uploads/2022/02/Yaffo-Front-Page.001.webp" style="background-color:#bed6df">
+    </div>
+    <div class="mySlides fade">
+      <img  src="https://thetelavivi.com/wp-content/uploads/2022/11/Beach-Drawing-square.001.webp" style="background-color:#7f3737">
+    </div>
     <span class="dot"></span>
     <span class="dot"></span>
     <span class="dot"></span>
     <script>
       let slideIndex = 0;
       showSlides();
-
       function showSlides() {
         let i;
         let slides = document.getElementsByClassName("mySlides");
@@ -1415,7 +1404,6 @@
         dots[slideIndex - 1].className += " active";
         setTimeout(showSlides, 5000); // Change image every 2 seconds
       }
-
     </script>
     <br>
   </body>
@@ -1428,5 +1416,4 @@
       <p><a href="thttps://www.google.com/maps/place/Alfasi+St+20,+Tel+Aviv-Yafo,+6607720/@32.0529927,34.7671201,17z/data=!3m1!4b1!4m5!3m4!1s0x151d4ca3b5690e1d:0xd4f784afb6313a01!8m2!3d32.0529927!4d34.7671201">alfassi 20, Tel Aviv</a></p>
     </div>
   </footer>
-
 </html>
